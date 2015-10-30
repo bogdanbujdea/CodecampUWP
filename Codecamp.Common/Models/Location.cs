@@ -1,4 +1,4 @@
-﻿namespace Codecamp.UWP.Models
+﻿namespace Codecamp.Common.Models
 {
     public class Location
     {

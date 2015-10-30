@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.1">
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
 
-  <CommandSet xml:lang="en-us" Name="examplevcd">
+  <CommandSet xml:lang="en-us" Name="CodecampCommandSet">
     <CommandPrefix>Codecamp</CommandPrefix>
     <Example>Ask Codecamp</Example>
 
@@ -13,20 +13,49 @@
       <Navigate/>
     </Command>
 
-    <Command Name="findSessions">
+   <!-- <Command Name="findSessions">
       <Example>show</Example>
       <ListenFor RequireAppName="ExplicitlySpecified">find the {builtin:AppName} sessions related to {tag}</ListenFor>
       <Feedback>Finding sessions related to {tag}</Feedback>
       <Navigate/>
+    </Command>-->
+
+    <Command Name="findSessionsWithCortana">
+      <Example> Find Codecamp sessions related to mobile apps</Example>
+      <ListenFor RequireAppName="ExplicitlySpecified"> find {builtin:AppName} sessions related to {search}</ListenFor>
+      <Feedback> Finding sessions related to {search}</Feedback>
+      <VoiceCommandService Target="CodecampSessionsVoiceCommandService"/>
     </Command>
 
-    <PhraseList Label="tag">
-      <Item>c#</Item>
-      <Item>javascript</Item>
-      <Item>java</Item>
-      <Item>git</Item>
-      <Item>testing</Item>
+    <Command Name="findSessionsByRoom">
+      <Example> Show me the Codecamp sessions from room 1</Example>
+      <ListenFor RequireAppName="ExplicitlySpecified"> show [me] [the] {builtin:AppName} sessions from room {room}</ListenFor>
+      <Feedback> Finding sessions from room {room}</Feedback>
+      <VoiceCommandService Target="CodecampSessionsVoiceCommandService"/>
+    </Command>
+    
+    <PhraseList Label="room">
+      <Item>one</Item>
+      <Item>2</Item>
+      <Item>3</Item>
+      <Item>4</Item>
+      <Item>5</Item>
+      <Item>6</Item>
+      <Item>7</Item>
+      <Item>8</Item>
+      <Item>9</Item>
+      <Item>10</Item>
     </PhraseList>
+    
+    <PhraseTopic Label="search" Scenario="Search">
+      <Subject> Codecamp </Subject>
+      <Subject> programming </Subject>
+      <Subject> IT </Subject>
+      <Subject> conference </Subject>
+      <Subject> presentation </Subject>
+      <Subject> windows </Subject>
+      <Subject> microsoft </Subject>
+    </PhraseTopic>
 
   </CommandSet>
 
