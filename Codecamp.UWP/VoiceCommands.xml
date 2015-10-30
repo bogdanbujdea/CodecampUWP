@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.1">
+
+  <CommandSet xml:lang="en-us" Name="examplevcd">
+    <CommandPrefix>Codecamp</CommandPrefix>
+    <Example>Ask Codecamp</Example>
+
+    <Command Name="showSessions">
+      <Example>show</Example>
+      <ListenFor RequireAppName="ExplicitlySpecified">show me the {builtin:AppName} agenda</ListenFor>
+      <Feedback>Showing sessions...</Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="findSessions">
+      <Example>show</Example>
+      <ListenFor RequireAppName="ExplicitlySpecified">find the {builtin:AppName} sessions related to {tag}</ListenFor>
+      <Feedback>Finding sessions related to {tag}</Feedback>
+      <Navigate/>
+    </Command>
+
+    <PhraseList Label="tag">
+      <Item>c#</Item>
+      <Item>javascript</Item>
+      <Item>java</Item>
+      <Item>git</Item>
+      <Item>testing</Item>
+    </PhraseList>
+
+  </CommandSet>
+
+</VoiceCommands>

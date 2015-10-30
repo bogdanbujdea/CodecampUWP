@@ -1,6 +1,10 @@
 ﻿using System;
+using System.Linq;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
+using Windows.Media.SpeechRecognition;
+using Windows.Storage;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
@@ -24,6 +28,13 @@ namespace Codecamp.UWP
                 Microsoft.ApplicationInsights.WindowsCollectors.Session);
             InitializeComponent();
             Suspending += OnSuspending;
+            UnhandledException += OnUnhandledException;
+        }
+
+        private async void OnUnhandledException(object sender, UnhandledExceptionEventArgs unhandledExceptionEventArgs)
+        {
+            unhandledExceptionEventArgs.Handled = true;
+            await new MessageDialog(unhandledExceptionEventArgs.Exception.Message).ShowAsync();
         }
 
         /// <summary>
@@ -31,7 +42,7 @@ namespace Codecamp.UWP
         /// will be used such as when the application is launched to open a specific file.
         /// </summary>
         /// <param name="e">Details about the launch request and process.</param>
-        protected override void OnLaunched(LaunchActivatedEventArgs e)
+        protected override async void OnLaunched(LaunchActivatedEventArgs e)
         {
 
 #if DEBUG
@@ -70,6 +81,26 @@ namespace Codecamp.UWP
             }
             // Ensure the current window is active
             Window.Current.Activate();
+
+            Uri uriVoiceCommands = new Uri("ms-appx:///VoiceCommands.xml", UriKind.Absolute);
+            StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(uriVoiceCommands);
+            await VoiceCommandManager.InstallCommandSetsFromStorageFileAsync(file);
+        }
+
+        protected override void OnActivated(IActivatedEventArgs args)
+        {
+            base.OnActivated(args);
+            if (args.Kind == ActivationKind.VoiceCommand)
+            {
+                HandleVoiceCommands((VoiceCommandActivatedEventArgs)args);
+            }
+        }
+
+        private void HandleVoiceCommands(VoiceCommandActivatedEventArgs args)
+        {
+            Frame rootFrame = Window.Current.Content as Frame;
+                    rootFrame?.Navigate(typeof (HomeView), args.Result);
+           
         }
 
         /// <summary>

@@ -5,11 +5,45 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:viewModels="using:Codecamp.UWP.ViewModels"
+    xmlns:models="using:Codecamp.UWP.Models"
     mc:Ignorable="d">
 <Page.DataContext>
         <viewModels:HomeViewModel></viewModels:HomeViewModel>
 </Page.DataContext>
+    <Page.BottomAppBar>
+                <CommandBar>
+                    <AppBarButton Icon="Microphone" Click="FindByVoice" HorizontalAlignment="Center"></AppBarButton>
+                </CommandBar>
+    </Page.BottomAppBar>
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Click="{x:Bind ViewModel.Click}"></Button>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Viewbox>
+            <TextBlock Text="CodeCamp"></TextBlock>
+        </Viewbox>
+        <Grid Grid.Row="1">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="You said:"></TextBlock>
+                    <TextBlock x:Name="TextSpoken" FontSize="20"></TextBlock>
+                </StackPanel>
+                <ListView ItemsSource="{x:Bind ViewModel.CodecampSessions}" Height="500">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Border BorderThickness="0" Margin="0 5" BorderBrush="Black">
+                                <StackPanel >
+                                    <TextBlock Text="{Binding Title}" FontWeight="Bold" FontSize="18" TextWrapping="Wrap"></TextBlock>
+                                    <TextBlock Text="{Binding Description}" FontSize="18" TextWrapping="Wrap"></TextBlock>
+                                    <TextBlock Text="{Binding Speakers[0].Name}" FontSize="18" TextWrapping="Wrap"></TextBlock>
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+        </Grid>
+        <MediaElement x:Name="AudioPlayer" AutoPlay="True"></MediaElement>
     </Grid>
 </Page>
