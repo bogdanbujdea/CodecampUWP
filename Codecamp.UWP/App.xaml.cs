@@ -44,7 +44,7 @@ namespace Codecamp.UWP
         /// <param name="e">Details about the launch request and process.</param>
         protected override async void OnLaunched(LaunchActivatedEventArgs e)
         {
-
+            
 #if DEBUG
             if (System.Diagnostics.Debugger.IsAttached)
             {
@@ -81,10 +81,10 @@ namespace Codecamp.UWP
             }
             // Ensure the current window is active
             Window.Current.Activate();
-
             Uri uriVoiceCommands = new Uri("ms-appx:///VoiceCommands.xml", UriKind.Absolute);
             StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(uriVoiceCommands);
             await VoiceCommandManager.InstallCommandSetsFromStorageFileAsync(file);
+           
         }
 
         protected override void OnActivated(IActivatedEventArgs args)

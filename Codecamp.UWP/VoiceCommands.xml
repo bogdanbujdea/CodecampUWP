@@ -13,12 +13,12 @@
       <Navigate/>
     </Command>
 
-   <!-- <Command Name="findSessions">
+    <Command Name="findSessionsByKeyword">
       <Example>show</Example>
-      <ListenFor RequireAppName="ExplicitlySpecified">find the {builtin:AppName} sessions related to {tag}</ListenFor>
-      <Feedback>Finding sessions related to {tag}</Feedback>
+      <ListenFor RequireAppName="ExplicitlySpecified">find the {builtin:AppName} sessions related to {keyword}</ListenFor>
+      <Feedback>Finding sessions related to {keyword}</Feedback>
       <Navigate/>
-    </Command>-->
+    </Command>
 
     <Command Name="findSessionsWithCortana">
       <Example> Find Codecamp sessions related to mobile apps</Example>
@@ -35,7 +35,7 @@
     </Command>
     
     <PhraseList Label="room">
-      <Item>one</Item>
+      <Item>1</Item>
       <Item>2</Item>
       <Item>3</Item>
       <Item>4</Item>
@@ -45,6 +45,10 @@
       <Item>8</Item>
       <Item>9</Item>
       <Item>10</Item>
+    </PhraseList>
+    
+    <PhraseList Label="keyword">
+      
     </PhraseList>
     
     <PhraseTopic Label="search" Scenario="Search">

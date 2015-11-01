@@ -1,8 +1,11 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Linq;
 using Windows.Media.SpeechRecognition;
 using Windows.Media.SpeechSynthesis;
+using Windows.UI.Core;
 using Windows.UI.Xaml;
+using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 
 namespace Codecamp.UWP.Views
@@ -14,6 +17,13 @@ namespace Codecamp.UWP.Views
         public HomeView()
         {
             InitializeComponent();
+            Loaded += ViewLoaded;
+        }
+
+        private void ViewLoaded(object sender, RoutedEventArgs e)
+        {
+            if (SessionsGridView != null)
+                SessionsGridView.Height = Window.Current.Bounds.Height - 100;
         }
 
         public HomeViewModel ViewModel => DataContext as HomeViewModel;
@@ -45,12 +55,22 @@ namespace Codecamp.UWP.Views
                     var findStream = await synthesizer.SynthesizeTextToStreamAsync("There are " + sessionCount + " sessions related to " + tag + "!");
                     AudioPlayer.SetSource(findStream, string.Empty);
                     break;
+                case "findSessionsByKeyword":
+                    var keyword = result.SemanticInterpretation.Properties["keyword"][0];
+                   // Debug.WriteLine(key);
+                    break;
             }
         }
 
         private async void FindByVoice(object sender, RoutedEventArgs e)
         {
-            await ViewModel.FindByVoiceAsync();
+            await Dispatcher.RunAsync(CoreDispatcherPriority.Normal, async () => await ViewModel.FindByVoiceAsync());
+        }
+
+        private void BorderLoaded(object sender, RoutedEventArgs e)
+        {
+            var border = sender as Border;
+            border.Width = Window.Current.Bounds.Width / 7;
         }
     }
 }

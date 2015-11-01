@@ -6,43 +6,79 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:viewModels="using:Codecamp.UWP.ViewModels"
     mc:Ignorable="d">
-<Page.DataContext>
+    <Page.DataContext>
         <viewModels:HomeViewModel></viewModels:HomeViewModel>
-</Page.DataContext>
+    </Page.DataContext>
+    <Page.Resources>
+        <ItemsPanelTemplate x:Key="VerticalWrapGrid">
+            <ItemsWrapGrid Orientation="Vertical"/>
+        </ItemsPanelTemplate>
+        <ItemsPanelTemplate x:Key="HorizontalWrapGrid">
+            <ItemsWrapGrid Orientation="Horizontal"/>
+        </ItemsPanelTemplate>
+    </Page.Resources>
     <Page.BottomAppBar>
-                <CommandBar>
-                    <AppBarButton Icon="Microphone" Click="FindByVoice" HorizontalAlignment="Center"></AppBarButton>
-                </CommandBar>
+        <CommandBar>
+            <AppBarButton Icon="Microphone" Click="FindByVoice" HorizontalAlignment="Center"></AppBarButton>
+        </CommandBar>
     </Page.BottomAppBar>
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="80"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-        </Grid.RowDefinitions>
-        <Viewbox>
-            <TextBlock Text="CodeCamp"></TextBlock>
-        </Viewbox>
-        <Grid Grid.Row="1">
-            <StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="You said:"></TextBlock>
-                    <TextBlock x:Name="TextSpoken" FontSize="20"></TextBlock>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState x:Name="WideState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="720" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="ZonesPanel.ItemsPanel" Value="{StaticResource HorizontalWrapGrid}" />
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="NarrowState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="ZonesPanel.ItemsPanel" Value="{StaticResource VerticalWrapGrid}" />
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <Grid x:Name="ContentGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="160"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Viewbox>
+                <TextBlock Text="CodeCamp"></TextBlock>
+            </Viewbox>
+            <Grid Grid.Row="1">
+                <StackPanel>
+                    <GridView x:Name="SessionsGridView" Margin="10" ItemsSource="{Binding CodecampSessions, Mode=TwoWay}" >
+                        <GridView.ItemTemplate>
+                            <DataTemplate>
+                                <Border BorderThickness="0" Margin="0 5" BorderBrush="Black" HorizontalAlignment="Left" Loaded="BorderLoaded">
+                                    <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top">
+                                        <TextBlock Text="{Binding Title}" FontWeight="Bold" FontSize="16" TextWrapping="Wrap" HorizontalAlignment="Left" TextTrimming="WordEllipsis"></TextBlock>
+                                        <TextBlock Text="{Binding Speakers[0].Name}" FontSize="16" Foreground="IndianRed" TextWrapping="Wrap" HorizontalAlignment="Left"></TextBlock>
+                                        <TextBlock Text="{Binding Speakers[1].Name}" FontSize="16" Foreground="IndianRed" TextWrapping="Wrap" HorizontalAlignment="Left"></TextBlock>
+                                    </StackPanel>
+                                </Border>
+                            </DataTemplate>
+                        </GridView.ItemTemplate>
+                    </GridView>
                 </StackPanel>
-                <ListView ItemsSource="{x:Bind ViewModel.CodecampSessions}" Height="500">
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <Border BorderThickness="0" Margin="0 5" BorderBrush="Black">
-                                <StackPanel >
-                                    <TextBlock Text="{Binding Title}" FontWeight="Bold" FontSize="18" TextWrapping="Wrap"></TextBlock>
-                                    <TextBlock Text="{Binding Description}" FontSize="18" TextWrapping="Wrap"></TextBlock>
-                                    <TextBlock Text="{Binding Speakers[0].Name}" FontSize="18" TextWrapping="Wrap"></TextBlock>
-                                </StackPanel>
-                            </Border>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-            </StackPanel>
+            </Grid>
+            <Grid Grid.Row="2" x:Name="VoiceGrid" VerticalAlignment="Top" Background="White">
+                <StackPanel VerticalAlignment="Center">
+                    <TextBlock Text="What topics would you like to attend on Codecamp?" FontSize="30" TextWrapping="Wrap" VerticalAlignment="Center"></TextBlock>
+                    <StackPanel x:Name="SpeechPanel" Orientation="Horizontal" Visibility="{x:Bind ViewModel.SpokenTextIsVisible, Mode=TwoWay, Converter={StaticResource BooleanToVisibilityConverter}}">
+                        <TextBlock Text="You said:" FontSize="22"></TextBlock>
+                        <TextBlock x:Name="TextSpoken" Text="{Binding SpokenText, Mode=TwoWay}" FontSize="22" TextWrapping="Wrap" Foreground="IndianRed"></TextBlock>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+            <MediaElement Grid.Row="0" x:Name="AudioPlayer" AutoPlay="True"></MediaElement>
         </Grid>
-        <MediaElement x:Name="AudioPlayer" AutoPlay="True"></MediaElement>
     </Grid>
 </Page>

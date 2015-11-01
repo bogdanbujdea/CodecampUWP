@@ -79,8 +79,7 @@ namespace CodecampSessionManager
         {
             try
             {
-                var sessions = await _agendaService.GetSessionsAsync();
-                var list = _agendaService.FindSessionsByKeyword(tags, sessions);
+                var list = _agendaService.FindSessionsByKeyword(tags);
                 var results = list.Where(f => f.Value > 0).OrderByDescending(f => f.Value).Select(l => l.Key).Take(10).ToList();
 
             var userMessage = new VoiceCommandUserMessage();

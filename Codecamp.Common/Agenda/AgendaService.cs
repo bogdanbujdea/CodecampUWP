@@ -16,6 +16,7 @@
     public class AgendaService
     {
         private string _json;
+        public List<Session> AllSessions { get; set; }
 
         public async Task<List<Session>> GetSessionsAsync()
         {
@@ -25,16 +26,17 @@
             await stream.ReadAsync(buffer, 0, (int)stream.Length);
             _json = Encoding.UTF8.GetString(buffer);
             var list = JsonConvert.DeserializeObject<List<Session>>(_json);
+            AllSessions = list;
             return new List<Session>(list);
         }
 
-        public Dictionary<Session, int> FindSessionsByKeyword(string userText, List<Session> sessions)
+        public Dictionary<Session, int> FindSessionsByKeyword(string userText)
         {
             var words = GetWordsFromJson();
             var text = userText.ToLower().Split(' ');
             var keywords = text.Where(w => words.Contains(w.ToLower())).ToList();
             var foundList = new Dictionary<Session, int>();
-            foreach (var codecampSession in sessions)
+            foreach (var codecampSession in AllSessions)
             {
                 foundList[codecampSession] = 0;
                 foundList[codecampSession] += GetScoreFrom(codecampSession.Title.ToLower().GetWords().ToArray(), keywords, 5);
