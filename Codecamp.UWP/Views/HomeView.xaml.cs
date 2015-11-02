@@ -18,12 +18,18 @@ namespace Codecamp.UWP.Views
         {
             InitializeComponent();
             Loaded += ViewLoaded;
+            SizeChanged += ViewSizeChanged;
+        }
+
+        private void ViewSizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            SessionsGridView.Height = Window.Current.Bounds.Height - 280;
         }
 
         private void ViewLoaded(object sender, RoutedEventArgs e)
         {
             if (SessionsGridView != null)
-                SessionsGridView.Height = Window.Current.Bounds.Height - 100;
+                SessionsGridView.Height = Window.Current.Bounds.Height - 280;
         }
 
         public HomeViewModel ViewModel => DataContext as HomeViewModel;
@@ -57,7 +63,7 @@ namespace Codecamp.UWP.Views
                     break;
                 case "findSessionsByKeyword":
                     var keyword = result.SemanticInterpretation.Properties["keyword"][0];
-                   // Debug.WriteLine(key);
+                    // Debug.WriteLine(key);
                     break;
             }
         }
