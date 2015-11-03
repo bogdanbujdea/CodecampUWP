@@ -131,7 +131,7 @@ namespace Codecamp.UWP.ViewModels
                     () =>
                     {
                         SpokenTextIsVisible = true;
-                        SpokenText += args.Hypothesis.Text;
+                        SpokenText = args.Hypothesis.Text;
                     });
         }
 

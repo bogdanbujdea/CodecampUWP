@@ -45,11 +45,11 @@
         </VisualStateManager.VisualStateGroups>
         <Grid x:Name="ContentGrid">
             <Grid.RowDefinitions>
-                <RowDefinition Height="80"></RowDefinition>
-                <RowDefinition Height="*"></RowDefinition>
-                <RowDefinition Height="160"></RowDefinition>
+                <RowDefinition Height="10*"></RowDefinition>
+                <RowDefinition Height="70*"></RowDefinition>
+                <RowDefinition Height="20*"></RowDefinition>
             </Grid.RowDefinitions>
-            <Viewbox>
+            <Viewbox x:Name="TitleBox">
                 <TextBlock Text="CodeCamp"></TextBlock>
             </Viewbox>
             <Grid Grid.Row="1" HorizontalAlignment="Center">
@@ -62,16 +62,21 @@
                     </GridView.ItemContainerStyle>
                     <GridView.ItemTemplate>
                         <DataTemplate>
-                            <Border BorderThickness="0" Margin="0 0" Background="Transparent" BorderBrush="Black" VerticalAlignment="Top" HorizontalAlignment="Left" Loaded="BorderLoaded">
-                                <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5 0">
+                            <Border x:Name="SessionBorder" MaxWidth="350" BorderThickness="0" Margin="0 0" Background="Transparent" BorderBrush="Black" VerticalAlignment="Top" HorizontalAlignment="Left" Loaded="BorderLoaded">
+                                <Grid Margin="5" VerticalAlignment="Stretch">
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="60*"></RowDefinition>
-                                        <RowDefinition Height="20*"></RowDefinition>
-                                        <RowDefinition Height="*"></RowDefinition>
+                                        <RowDefinition Height="40*"></RowDefinition>
                                     </Grid.RowDefinitions>
-                                    <TextBlock Text="{Binding Title}" FontWeight="Bold" VerticalAlignment="Top" FontSize="16" TextWrapping="Wrap" HorizontalAlignment="Left" TextTrimming="CharacterEllipsis"></TextBlock>
-                                    <TextBlock Text="{Binding Speakers[0].Name}" Grid.Row="1" FontSize="16" Foreground="IndianRed" TextWrapping="Wrap" HorizontalAlignment="Left"></TextBlock>
-                                    <TextBlock Text="{Binding Speakers[1].Name}" Grid.Row="2" FontSize="16" Foreground="IndianRed" TextWrapping="Wrap" HorizontalAlignment="Left"></TextBlock>
+                                    <StackPanel VerticalAlignment="Top" Background="Transparent">
+                                        <TextBlock Text="{Binding Title}" FontWeight="Bold" Width="{Binding ElementName=SessionBorder, Path=Width, Mode=TwoWay}" VerticalAlignment="Top" FontSize="16" TextWrapping="Wrap" HorizontalAlignment="Left" TextTrimming="CharacterEllipsis"></TextBlock>
+                                        <TextBlock Text="{Binding Speakers[0].Name}" FontSize="16" Foreground="IndianRed" TextWrapping="Wrap" HorizontalAlignment="Left"></TextBlock>
+                                        <TextBlock Text="{Binding Speakers[1].Name}" FontSize="16" Foreground="IndianRed" TextWrapping="Wrap" HorizontalAlignment="Left"></TextBlock>
+                                    </StackPanel>
+                                    <StackPanel Grid.Row="1" VerticalAlignment="Stretch" Background="Transparent">
+                                        <TextBlock Text="{Binding Time}" FontSize="16" Foreground="Black" TextWrapping="Wrap" HorizontalAlignment="Left"></TextBlock>
+                                        <TextBlock Text="{Binding Location}" FontSize="16" Foreground="Black" TextWrapping="Wrap" HorizontalAlignment="Left"></TextBlock>
+                                    </StackPanel>
                                 </Grid>
                             </Border>
                         </DataTemplate>
@@ -80,9 +85,11 @@
             </Grid>
             <Grid Grid.Row="2" x:Name="VoiceGrid" VerticalAlignment="Top" Background="White">
                 <StackPanel VerticalAlignment="Center">
-                    <TextBlock Text="What topics would you like to attend on Codecamp?" FontSize="30" TextWrapping="Wrap" VerticalAlignment="Center"></TextBlock>
-                    <StackPanel x:Name="SpeechPanel" Orientation="Horizontal" Visibility="{x:Bind ViewModel.SpokenTextIsVisible, Mode=TwoWay, Converter={StaticResource BooleanToVisibilityConverter}}">
-                        <TextBlock Text="You said:" FontSize="22"></TextBlock>
+                    <Viewbox Height="50">
+                        <TextBlock Text="What topics would you like to attend on Codecamp?" FontSize="20" TextWrapping="Wrap" VerticalAlignment="Center"></TextBlock>
+                    </Viewbox>
+                    <StackPanel x:Name="SpeechPanel" Orientation="Horizontal" Visibility="{x:Bind ViewModel.IsListening, Mode=TwoWay, Converter={StaticResource BooleanToVisibilityConverter}}">
+                        <TextBlock Text="Listening:" FontSize="22"></TextBlock>
                         <TextBlock x:Name="TextSpoken" Text="{Binding SpokenText, Mode=TwoWay}" FontSize="22" TextWrapping="Wrap" Foreground="IndianRed"></TextBlock>
                     </StackPanel>
                 </StackPanel>

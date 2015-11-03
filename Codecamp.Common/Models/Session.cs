@@ -18,5 +18,7 @@ namespace Codecamp.Common.Models
         public string StartTime { get; set; }
 
         public string EndTime { get; set; }
+
+        public string Time => StartTime + "-" + EndTime;
     }
 }

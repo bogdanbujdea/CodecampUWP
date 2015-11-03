@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Linq;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
@@ -81,10 +82,16 @@ namespace Codecamp.UWP
             }
             // Ensure the current window is active
             Window.Current.Activate();
-            Uri uriVoiceCommands = new Uri("ms-appx:///VoiceCommands.xml", UriKind.Absolute);
-            StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(uriVoiceCommands);
-            await VoiceCommandManager.InstallCommandSetsFromStorageFileAsync(file);
-           
+            try
+            {
+                Uri uriVoiceCommands = new Uri("ms-appx:///VoiceCommands.xml", UriKind.Absolute);
+                StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(uriVoiceCommands);
+                await VoiceCommandManager.InstallCommandSetsFromStorageFileAsync(file);
+            }
+            catch (Exception exception)
+            {
+                Debug.WriteLine(exception.Message);
+            }
         }
 
         protected override void OnActivated(IActivatedEventArgs args)
