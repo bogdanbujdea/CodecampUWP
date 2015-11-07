@@ -1,6 +1,11 @@
 ﻿using System;
+using System.Diagnostics;
+using System.Linq;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
+using Windows.Media.SpeechRecognition;
+using Windows.Storage;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
@@ -8,15 +13,8 @@ using Codecamp.UWP.Views;
 
 namespace Codecamp.UWP
 {
-    /// <summary>
-    /// Provides application-specific behavior to supplement the default Application class.
-    /// </summary>
-    sealed partial class App : Application
+    sealed partial class App
     {
-        /// <summary>
-        /// Initializes the singleton application object.  This is the first line of authored code
-        /// executed, and as such is the logical equivalent of main() or WinMain().
-        /// </summary>
         public App()
         {
             Microsoft.ApplicationInsights.WindowsAppInitializer.InitializeAsync(
@@ -24,23 +22,40 @@ namespace Codecamp.UWP
                 Microsoft.ApplicationInsights.WindowsCollectors.Session);
             InitializeComponent();
             Suspending += OnSuspending;
+            UnhandledException += OnUnhandledException;
         }
 
-        /// <summary>
-        /// Invoked when the application is launched normally by the end user.  Other entry points
-        /// will be used such as when the application is launched to open a specific file.
-        /// </summary>
-        /// <param name="e">Details about the launch request and process.</param>
-        protected override void OnLaunched(LaunchActivatedEventArgs e)
+        private async void OnUnhandledException(object sender, UnhandledExceptionEventArgs unhandledExceptionEventArgs)
         {
+            unhandledExceptionEventArgs.Handled = true;
+            await new MessageDialog(unhandledExceptionEventArgs.Exception.Message).ShowAsync();
+        }
 
+        protected override async void OnLaunched(LaunchActivatedEventArgs e)
+        {
+            
 #if DEBUG
-            if (System.Diagnostics.Debugger.IsAttached)
+            if (Debugger.IsAttached)
             {
-                this.DebugSettings.EnableFrameRateCounter = true;
+                DebugSettings.EnableFrameRateCounter = true;
             }
 #endif
 
+            Navigate(e);
+            try
+            {
+                Uri uriVoiceCommands = new Uri("ms-appx:///VoiceCommands.xml", UriKind.Absolute);
+                StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(uriVoiceCommands);
+                await VoiceCommandManager.InstallCommandSetsFromStorageFileAsync(file);
+            }
+            catch (Exception exception)
+            {
+                Debug.WriteLine(exception.Message);
+            }
+        }
+
+        private void Navigate(object args)
+        {
             Frame rootFrame = Window.Current.Content as Frame;
 
             // Do not repeat app initialization when the Window already has content,
@@ -52,11 +67,6 @@ namespace Codecamp.UWP
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
 
-                if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
-                {
-                    //TODO: Load state from previously suspended application
-                }
-
                 // Place the frame in the current Window
                 Window.Current.Content = rootFrame;
             }
@@ -66,10 +76,24 @@ namespace Codecamp.UWP
                 // When the navigation stack isn't restored navigate to the first page,
                 // configuring the new page by passing required information as a navigation
                 // parameter
-                rootFrame.Navigate(typeof(HomeView), e.Arguments);
+                rootFrame.Navigate(typeof (HomeView), args);
             }
             // Ensure the current window is active
             Window.Current.Activate();
+        }
+
+        protected override void OnActivated(IActivatedEventArgs args)
+        {
+            base.OnActivated(args);
+            if (args.Kind == ActivationKind.VoiceCommand)
+            {
+                HandleVoiceCommands((VoiceCommandActivatedEventArgs)args);
+            }
+        }
+
+        private void HandleVoiceCommands(VoiceCommandActivatedEventArgs args)
+        {
+            Navigate(args);
         }
 
         /// <summary>
