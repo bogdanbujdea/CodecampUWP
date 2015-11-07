@@ -13,23 +13,23 @@
       <VoiceCommandService Target="CodecampSessionsVoiceCommandService"/>
     </Command>
 
-    <Command Name="showSessionsByRoom">
-      <Example> Show me the Codecamp sessions from room 1</Example>
-      <ListenFor RequireAppName="ExplicitlySpecified"> show [me] [the] {builtin:AppName} sessions from room {room}</ListenFor>
-      <Feedback> Finding sessions from room {room}</Feedback>
-      <Navigate />
-    </Command>
-    
     <Command Name="showSessions">
       <Example>show me the CodeCamp agenda</Example>
       <ListenFor RequireAppName="ExplicitlySpecified">show me the {builtin:AppName} agenda</ListenFor>
       <Feedback>Showing sessions...</Feedback>
       <Navigate/>
     </Command>
+    
+    <Command Name="showSessionsByRoom">
+      <Example> Show me the Codecamp sessions from room 1</Example>
+      <ListenFor RequireAppName="ExplicitlySpecified"> show [me] [the] {builtin:AppName} sessions from room {room}</ListenFor>
+      <Feedback> Finding sessions from room {room}</Feedback>
+      <Navigate />
+    </Command>
 
     <Command Name="findSessionsWithCortana">
       <Example> Find Codecamp sessions related to mobile apps</Example>
-      <ListenFor RequireAppName="ExplicitlySpecified"> find {builtin:AppName} sessions related to {search}</ListenFor>
+      <ListenFor RequireAppName="ExplicitlySpecified"> find [the] {builtin:AppName} sessions related to {search}</ListenFor>
       <Feedback> Finding sessions related to {search}</Feedback>
       <VoiceCommandService Target="CodecampSessionsVoiceCommandService"/>
     </Command>
