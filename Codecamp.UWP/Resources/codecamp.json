@@ -5,7 +5,8 @@
                 "name": "Anghel Adrian-Claudiu",
                 "bio": "n/a",
                 "title": "Developer",
-                "company": "Unicredit"
+                "company": "Unicredit",
+                "photo": "http://iasi.codecamp.ro/images/speakers/anghelclaudiu.jpg"
             }
         ],
         "title": "New architecture design: Micro services and Continuous Integration",
@@ -25,7 +26,8 @@
                 "name": "Archit Lohokare",
                 "bio": "Archit Lohokare is the Senior Director of Platform Product Management at Optymyze, the market leader in Sales Performance Management. Prior to this, he was the Director of Product Management for Symantec's Cloud Information Protection security as a service. Before Symantec, Archit managed IBM's market leading Access Management product line comprising of web access management, identity federation, enterprise single sign-on, risk-based access and entitlements management products. Archit joined IBM through the acquisition of Encentuate, a leading Bay Area startup in the security space, of which he was an early member. At Encentuate, Archit held roles in the engineering, professional services, support, and pre-sales organizations. Archit has an MBA from UC Berkeley-Haas School of Business and a Bachelors degree in Computer Engineering from NTU, Singapore where he was awarded the SIA-NOL undergraduate scholarship by the Ministry of Education, Singapore.",
                 "title": "Senior Director, Platform Product Management",
-                "company": "Optymyze"
+                "company": "Optymyze",
+                "photo": "http://iasi.codecamp.ro/images/speakers/archit.lohokare.jpg"
             }
         ],
         "title": "Cloud Security for the new Digital and SaaS Enterprise ",
@@ -45,7 +47,8 @@
                 "name": "Butnariu Cristi",
                 "bio": "I'm a passionate and enthusiastic software developer working on BeeNear, with a 10+ years experience in building software for retail markets from abroad using Microsoft technologies.",
                 "title": "Senior Programmer",
-                "company": "BeeNear"
+                "company": "BeeNear",
+                "photo": "http://iasi.codecamp.ro/images/speakers/butnariu.cristi.png"
             }
         ],
         "title": "Voice Technology in Warehousing",
@@ -65,7 +68,8 @@
                 "name": "Cristi Ursachi",
                 "bio": "I have been developing software for global enterprises since 2003 mainly using Microsoft technologies and I was involved in all phases of building a product from planning, architecture and development till deployment and maintenance. On the other side I was always passionate and interested about low-level implementations of software, especially databases.As result I founded his start-up and I'm working now on CryptonorDB, a product that will change the way of using a database in the cloud.",
                 "title": "Entrepreneur",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/cristi.ursachi.png"
             }
         ],
         "title": "Build apps using a zero-knowledge cloud database",
@@ -85,7 +89,8 @@
                 "name": "Daniel Leon",
                 "bio": "I'm a Linux enthusiast and a proactive learner. I like finding the best solutions and putting them into practice.",
                 "title": "Senior Software Developer",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/leon.daniel.png"
             }
         ],
         "title": "Spark: The beginnings",
@@ -105,7 +110,8 @@
                 "name": "Remus Langu",
                 "bio": "Remus is a software engineer with a high interest in Agile practices (XP, BDD/TDD, Emergent Design,…) and Software Craftsmanship.",
                 "title": "Design Lead",
-                "company": "Endava"
+                "company": "Endava",
+                "photo": "http://iasi.codecamp.ro/images/speakers/remus_langu.png"
             }
         ],
         "title": "Handling Variations in Emerging Designs",
@@ -125,7 +131,8 @@
                 "name": "Antonio Caciuc",
                 "bio": "Just a guy, working towards a future when the things that make us weak and strange get engineered away.",
                 "title": "HackerSpace Pilot",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/caciuc.mihai.antonio.jpg"
             }
         ],
         "title": "Creative Programming",
@@ -145,7 +152,8 @@
                 "name": "Radu Iscu",
                 "bio": "Radu has been a software professional for a while now. He's worked on both small and large projects, small and large companies, and in this time he's learned a lot of stuff about code. He's passionate about extreme programming, flexible design, emergent architecture and refactoring, to the point where he won't stop talking about it.",
                 "title": "Solution Architect",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/radu.iscu2.jpg"
             }
         ],
         "title": "Useful code metrics",
@@ -165,7 +173,8 @@
                 "name": "Hrubaru Ana-Maria",
                 "bio": "10+ years experience in the testing process in different software development models at all the testing levels.",
                 "title": "Software Engineering Manager @Optymyze",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/hrubaru.ana-maria.png"
             }
         ],
         "title": "Testing Under Way",
@@ -185,13 +194,15 @@
                 "name": "Raluca Breaur",
                 "bio": "Raluca is an Agile enthusiast with 12 years of experience in software development.",
                 "title": "Delivery Manager",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/raluca.breaur.jpg"
             },
             {
                 "name": "Florin Cardasim",
                 "bio": "Florin is the Group Head of Development at Endava. Beyond his technical skills, Florin has gained a broad experience as a trainer for companies and speaker in community events. Florin is also co-founder of CodeCamp, one of the largest communities of software developers in Romania.",
                 "title": "Codecamper",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/florin.cardasim2015.jpg"
             }
         ],
         "title": "Lean - change the game",
@@ -211,7 +222,8 @@
                 "name": "Florin Ciubotaru",
                 "bio": "Florin is an engineer with an interest in building complex systems with high impact. He experiments with various leadership forms and is interested in various human factors surrounding information systems. He is currently fulfilling his passion as a Tech Lead at Pentalog.",
                 "title": "Technical Lead",
-                "company": "Pentalog"
+                "company": "Pentalog",
+                "photo": "http://iasi.codecamp.ro/images/speakers/florin.ciubotaru.png"
             }
         ],
         "title": "Stories from the aviation industry",
@@ -231,13 +243,15 @@
                 "name": "Sebastian Agachie",
                 "bio": "Sebastian believes that curiosity, motivation and the right attitude are the key ingredients of achieving everything you want. Although in his career Sebastian covered almost every position in IT, from networking to development, he always had an incredible passion for security.",
                 "title": "Ethical Hacker, Security Specialist",
-                "company": "Centric"
+                "company": "Centric",
+                "photo": "http://iasi.codecamp.ro/images/speakers/sebastian.agachie.jpg"
             },
             {
                 "name": "Elger Jonker",
                 "bio": "Elger believes the world is a better place when knowledge, research and joy are shared. Therefore he has helped establish several hackerspaces in the Netherlands, is active in a foundation that shares the joy of retro gaming and helps organizing the world’s biggest outdoor hacker conference in 2017.",
                 "title": "Ethical Hacker, Security Lead",
-                "company": "Centric"
+                "company": "Centric",
+                "photo": "http://iasi.codecamp.ro/images/speakers/elger.jonker.jpg"
             }
         ],
         "title": "Security Going Wrong",
@@ -257,7 +271,8 @@
                 "name": "Mihai Alexandru Bîrsan",
                 "bio": "Passionate about front-end technologies and the web. Codes by night, manages brilliant engineers by day. Still believes boring problems should be automated away through coding. Looks for interesting problems to solve with other skills.",
                 "title": "Software Development Manager",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/mihai.birsan.jpg"
             }
         ],
         "title": "Non-Native Mobile Apps",
@@ -274,15 +289,16 @@
     {
         "speakers": [
             {
-                "name": "Bogdan Bujdea",
-                "bio": "I'm a Windows Platform Developer with ~4 years of experience on Windows apps, currently working for Feel IT. My favorite hobby is writing code, I knew this from high school and I managed to also turn it into a full-time job. Although I also worked with other languages and frameworks, I focused myself on developing apps with C#/XAML for the Windows Platform..",
-                "title": "Windows Platform Developer",
-                "company": "N/A"
+                "name": "Mihai Bura",
+                "bio": "Being an eager learner and tech savvy, Mihai is helping Yonder deliver the best front end experience for their customers. He enjoys challenging mentees to learn and discover new ways of building the web.",
+                "title": "Web Developer",
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/mihai.bura.jpg"
             }
         ],
-        "title": "Using Cortana for voice activated apps",
+        "title": "Ionic - A framework for mobile development",
         "language": "Romanian",
-        "description": "Voice activated applications and voice recognition have become an increasingly popular concept in recent years. In this presentation my goal is to help you know when to use voice recognition, and what are its advantages and disadvantages. Considering that in these days every device supports voice recognition(smartwatches, smartphones, IoT devices, etc), knowing how and when to handle voice input is something that every developer should know. The code that I will write during the presentation will be in C#/XAML for UWP apps, but the presentation ideas also apply to other platforms that support voice recognition.",
+        "description": "Mobile development done right needs to cover at least a number of areas. Prototyping - Use customizable block-like components Development - Write the backbone of your application using AngularJS and ngCordova Build and Emulate - A strong CLI will help you build your app using Gulp and then emulate it either in the browser, emulator, or on your very own device Deploy - One-click-deploy to your device? Yup, that's possible Analytics - Learn about the people using your app with less effort Ionic comes to help and puts in our hands a beautiful framework that keeps us focused at what we should be doing: develop amazing apps.",
         "location": {
             "room": "Room 4",
             "seats": 20,
@@ -297,7 +313,8 @@
                 "name": "Cezar Romaniuc",
                 "bio": "I’m a Software Developer with over 4 years of experience in building Java based solutions related to payment, digital media, telecommunications, energy and ERP systems.",
                 "title": "Senior Java Developer",
-                "company": "Endava"
+                "company": "Endava",
+                "photo": "http://iasi.codecamp.ro/images/speakers/cezar.romaniuc.jpg"
             }
         ],
         "title": "Distributed processing of large datasets",
@@ -317,7 +334,8 @@
                 "name": "Paul Istoan",
                 "bio": "Paul is a software developer who's been slowly realizing that writing software is not that easy. From working on legacy projects to designing",
                 "title": "Software Development Engineer",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/paul.istoan.png"
             }
         ],
         "title": "Writing Maintainable JavaScript",
@@ -337,7 +355,8 @@
                 "name": "George Serediuc",
                 "bio": "I’m a multidisciplinary designer striving to create great experiences. My favorite things include unfiltered beer, science fiction novels, cosmology, and hiking. Currently designing positive outcomes at figshare. Follow me: @georgeserediuc",
                 "title": "Digital Designer",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/george.serediuc.jpg"
             }
         ],
         "title": "About User Experience: How design became the new language of business",
@@ -357,7 +376,8 @@
                 "name": "Cristian Falcas",
                 "bio": "I'm 36 years old, born in Iasi and working for almost 3 years as a dev-ops engineer at Optymyze/Synygy/ArezzoSky.",
                 "title": "Dev-Ops",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/falcas_100.png"
             }
         ],
         "title": "Automate your failures. A story about docker and kubernetes.",
@@ -377,7 +397,8 @@
                 "name": "Cristian Coțoi",
                 "bio": "Cristian has almost 8 years of experience in testing, and currently working as a Software Developer in Test @Amazon. He has been part of many projects, both small and big, and in this time he learned a lot about quality and testing, tools and principles and the space in-between.",
                 "title": "SDET",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/cristian.cotoi.png"
             }
         ],
         "title": "Building frameworks over Selenium",
@@ -397,16 +418,18 @@
                 "name": "Florin Cardasim",
                 "bio": "Florin is the Group Head of Development at Endava. Beyond his technical skills, Florin has gained a broad experience as a trainer for companies and speaker in community events. Florin is also co-founder of CodeCamp, one of the largest communities of software developers in Romania.",
                 "title": "Codecamper",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/florin.cardasim2015.jpg"
             },
             {
                 "name": "Raluca Breaur",
                 "bio": "Raluca is an Agile enthusiast with 12 years of experience in software development.",
                 "title": "Delivery Manager",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/raluca.breaur.jpg"
             }
         ],
-        "title": "Decide at the Last Responsible Moment!",
+        "title": "[Workshop] Decide at the Last Responsible Moment!",
         "language": "(English)",
         "description": "[Workshop] - Decisions in software architecture & design can be tricky in the complex and agile environments we live. Decide too early or too late and unexpected (sometimes very serious) consequences may arise. Let's explore real options and the Last Responsible Moment!",
         "location": {
@@ -423,7 +446,8 @@
                 "name": "Arthur Kerpician",
                 "bio": "16 years ago he found his first PHP tutorial and instantly fell in love with the „elephant language”. Since then, he worked with as many web technologies he could lay his hands on. Nowadays, he eats PHP for breakfast, Scrum for lunch and enjoys a relaxing Symfony during dinner.",
                 "title": "Team Manager",
-                "company": "eMAG"
+                "company": "eMAG",
+                "photo": "http://iasi.codecamp.ro/images/speakers/arthur.kerpician.jpg"
             }
         ],
         "title": "The Blackening",
@@ -443,7 +467,8 @@
                 "name": "Todd Kulick",
                 "bio": "Software engineer with fifteen years of experience in building and shipping small, medium, and large scale software products. Detailed experience in embedded DVR/video applications, computer graphics, user interface development, and client-server applications. Prior experience includes design, development, implementation and ongoing support of large scale application deployment working in a large software organization.",
                 "title": "VP of Technology, TiVo",
-                "company": "Ness"
+                "company": "Ness",
+                "photo": "http://iasi.codecamp.ro/images/speakers/todd.kulick.jpg"
             }
         ],
         "title": "Haxe - A solution for the big UI rewrite",
@@ -463,7 +488,8 @@
                 "name": "Ovidiu Avasilcai",
                 "bio": "Technical Project Manager with a background in IT services. Over the years I've had the pleasure of working in many areas of IT service industry, from customer/tech support, devops, dba, project coordination and development.",
                 "title": "Technical Project Manager",
-                "company": "SCC"
+                "company": "SCC",
+                "photo": "http://iasi.codecamp.ro/images/speakers/ovidiu.avasilcai.png"
             }
         ],
         "title": "Flux(Redux) architecture & ReactJS ecosystem",
@@ -480,15 +506,16 @@
     {
         "speakers": [
             {
-                "name": "Mihai Bura",
-                "bio": "Being an eager learner and tech savvy, Mihai is helping Yonder deliver the best front end experience for their customers. He enjoys challenging mentees to learn and discover new ways of building the web.",
-                "title": "Web Developer",
-                "company": "N/A"
+                "name": "Bogdan Bujdea",
+                "bio": "I'm a Windows Platform Developer with ~4 years of experience on Windows apps, currently working for Feel IT. My favorite hobby is writing code, I knew this from high school and I managed to also turn it into a full-time job. Although I also worked with other languages and frameworks, I focused myself on developing apps with C#/XAML for the Windows Platform..",
+                "title": "Windows Platform Developer",
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/bogdan.bujdea.jpg"
             }
         ],
-        "title": "Ionic - A framework for mobile development",
+        "title": "Using Cortana for voice activated apps",
         "language": "Romanian",
-        "description": "Mobile development done right needs to cover at least a number of areas. Prototyping - Use customizable block-like components Development - Write the backbone of your application using AngularJS and ngCordova Build and Emulate - A strong CLI will help you build your app using Gulp and then emulate it either in the browser, emulator, or on your very own device Deploy - One-click-deploy to your device? Yup, that's possible Analytics - Learn about the people using your app with less effort Ionic comes to help and puts in our hands a beautiful framework that keeps us focused at what we should be doing: develop amazing apps.",
+        "description": "Voice activated applications and voice recognition have become an increasingly popular concept in recent years. In this presentation my goal is to help you know when to use voice recognition, and what are its advantages and disadvantages. Considering that in these days every device supports voice recognition(smartwatches, smartphones, IoT devices, etc), knowing how and when to handle voice input is something that every developer should know. The code that I will write during the presentation will be in C#/XAML for UWP apps, but the presentation ideas also apply to other platforms that support voice recognition.",
         "location": {
             "room": "Room 4",
             "seats": 20,
@@ -500,15 +527,16 @@
     {
         "speakers": [
             {
-                "name": "Mircea Pricop",
-                "bio": "I joined Google fresh off the benches of the University of Hamburg, where I transferred to after starting my CS education right here in Iasi. Having been at Google for three years now, I'm currently focusing on information extraction, aggregation and data understanding as part of developing exciting new search features.",
-                "title": "Software Engineer",
-                "company": "Google"
+                "name": "Florian Blaga",
+                "bio": "Florian is the GM of Appsbroker Romania, a leading european Google for Work Premier Partner. Towards customers, as a Google for Work specialist and Service Delivery manager, Florian's role is to leverage the knowledge and expertise to the benefit of customers by mapping their business needs to Appsbroker's and Google's products and services. He enjoys all topics related to IT Governance and Security, new and disruptive technologies.",
+                "title": "Service Delivery Manager",
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/florianblaga.png"
             }
         ],
-        "title": "Use your data to understand the world: extracting meaning out of free form text and beyond.",
+        "title": "Applied natural language in enterprise search",
         "language": "(English)",
-        "description": "Word embeddings are one of the most exciting topics in machine learning today, and thanks to recent developments it's never been easier to harness their power. Starting from a simple problem, we'll have a look at how and why they work, see them in action on the Google cloud, then peek at how these concepts can be help you with your own challenges.",
+        "description": "Natural language - tehnologii best in class from Cogito Italy (FBI uses it); Google Search Appliance - integration for Enterprise Search Engine + Natural Language",
         "location": {
             "room": "Room 5",
             "seats": 30,
@@ -523,7 +551,8 @@
                 "name": "Adrian-Tudor Panescu",
                 "bio": "Computer Science graduate and Web enthusiast. From small Berlin startups to large institutions like CERN, I've always pushed my limits in order to deliver innovative Web products.",
                 "title": "Web Enthusiast",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/adrian.tudor.panescu.png"
             }
         ],
         "title": "ECMAScript 6 Tips & Traps",
@@ -543,7 +572,8 @@
                 "name": "Ionut Grecu",
                 "bio": "Ionut Grecu has been involved in IT for the last 6+ years. His work exists at the intersection of Agile Transformation, Lean Thinking, Psychology and Digital Marketing. Weird, right? He is a believer in servant leadership and the power that Agile and Lean thinking and techniques can bring to an organization. Being a bookish sort who always loves a mental challenge, he would be bored if he wasn’t constantly learning. Yet he has the ability to focus and research deeply in a narrow field of specialization. Life's big questions interest him most. DNN Sharp is his oyster and when he is out of the office you can find him eating shawarma, sitting at a table near you. He has a self-proclaimed PhD in napping in any position you can think of.",
                 "title": "Scrum Master",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/ionut.grecu.png"
             }
         ],
         "title": "Emotional Intelligence - A Success Mantra for Agile Teams",
@@ -563,7 +593,8 @@
                 "name": "Florin Asavoaie",
                 "bio": "Florin is an IT and computer security enthusiast. He’s got experience with the automated deployment and configuration of medium to large environments dedicated to web applications and web services. He is a fan of Open Source communities and promotes the use of Open Source software in business environments.",
                 "title": "Senior Devops Engineer",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/florin.asavoaie.jpg"
             }
         ],
         "title": "Configuration Management NG",
@@ -583,7 +614,8 @@
                 "name": "Ioana Serediuc",
                 "bio": "•\t9 years’ experience in testing field",
                 "title": "Test Lead",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/ioana.serediuc.jpg"
             }
         ],
         "title": "How real are your test leadership abilities?",
@@ -603,7 +635,8 @@
                 "name": "Adrian Rindasu",
                 "bio": "Adrian co founded Edurom in 2002. Since then, he developed and delivered training and consultancy programs for various companies in the software development industry. He is running Belbin & Situational Leadership trainings for the IT&C clients of Edurom.",
                 "title": "Managing Partner",
-                "company": "EDUROM"
+                "company": "EDUROM",
+                "photo": "http://iasi.codecamp.ro/images/speakers/adrian.rindasu2.jpg"
             }
         ],
         "title": "Thinking Strategically",
@@ -623,7 +656,8 @@
                 "name": "Ovidiu Simionica",
                 "bio": "Passionate about code quality practices, Object Oriented Design, TDD and 'Uncle Bob\"",
                 "title": "Technical Project Manager",
-                "company": "Fortech"
+                "company": "Fortech",
+                "photo": "http://iasi.codecamp.ro/images/speakers/ovidiu.simionica.jpg"
             }
         ],
         "title": "Living the end times",
@@ -643,13 +677,15 @@
                 "name": "Steven Arnauts",
                 "bio": "Software architect, designer and developer. I’ve been working as a consultant for ISV’s designing SAAS applications for the last couple of years, with a primary technological focus on the .NET platform.",
                 "title": "Software Architect",
-                "company": "Expert Network"
+                "company": "Expert Network",
+                "photo": "http://iasi.codecamp.ro/images/speakers/StevenArnauts.jpg"
             },
             {
                 "name": "Ralf Geenen",
                 "bio": "Ralf has more than 17 years of experience in IT. During his professional career, he has worked as a software architect for multiple Belgian customers in the financial, utilities, public, healthcare and other sectors. He focuses on software design and methodology.",
                 "title": "Software Architect",
-                "company": "Expert Network"
+                "company": "Expert Network",
+                "photo": "http://iasi.codecamp.ro/images/speakers/RalfGeenen.jpg"
             }
         ],
         "title": "REST, Event-Driven Architecture and Micro-Services",
@@ -669,7 +705,8 @@
                 "name": "Vlad Zelinschi (Reign)",
                 "bio": "Vlad (close friends call him Reign :D) is a Frontend Engineer with a strong passion for the latest technologies out there and an unhealthy obsession for clean and simple code. He loves to try out things as soon as they hit the market so he always keeps an eye out for the JS, CSS and HTML everchanging landscapes. He happily embraces any challenge, though he’ll prefer the ones related to Angular, React, FRP, Node, MongoDB and frontend performance. He is currently employed at Appsbroker where he leads the frontend team and drives innovation forward.",
                 "title": "UI Tech Lead",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/vlad.zelinschi.reign.jpg"
             }
         ],
         "title": "Client-side reactive programming with RxJS",
@@ -689,7 +726,8 @@
                 "name": "Alex Mang",
                 "bio": "Alex Mang is a regular speaker at community driven events focusing mostly on cloud-computing topics, thus aiming to help developers better understand the implications of cloud-computing as a whole. As an Azure Advisor, he regularly offers Azure teams in Redmond feedback on upcoming Azure features and services and gets to test them out in early development stages.",
                 "title": "CEO",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/alex.mang.jpg"
             }
         ],
         "title": "Know Your Customers, Know Your Apps",
@@ -709,7 +747,8 @@
                 "name": "Ancuta Damian",
                 "bio": "I'm an IT enthusiast interested in Agile methodologies and understanding how improving human interactions in a team can lead to better results.",
                 "title": "Project manager",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/ancuta.damian.jpg"
             }
         ],
         "title": "How to grow happy teams",
@@ -729,7 +768,8 @@
                 "name": "Radu Danciu",
                 "bio": "With over 7 years of experience in game development having shipped a couple of triple-A titles my goal is to provide memorable experiences to people who enjoy games.",
                 "title": "Senior Entertainment Engineer",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/radu.danciu.png"
             }
         ],
         "title": "GPGPU Procedural Content Generation",
@@ -749,7 +789,8 @@
                 "name": "Andrei Pruteanu",
                 "bio": "I am information processing specialist at Uber Research. My work focuses on performing complex data analysis on large research publication data-sets.",
                 "title": "Software engineer",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/andrei.pruteanu.png"
             }
         ],
         "title": "Lessons learned in starting and closing an IT company in Holland",
@@ -769,7 +810,8 @@
                 "name": "Cosmin Ilie",
                 "bio": "I lead the Cloud Services Group in Iasi for Optymyze. Our job is to operate the company's SaaS platform for a large group of clients in different data centers and geographic locations.",
                 "title": "Cloud Services Manager",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/cosmin.ilie.jpg"
             }
         ],
         "title": "How to \"Go\"",
@@ -789,13 +831,15 @@
                 "name": "Diana Lefter",
                 "bio": "IT Manager born and raised in Iasi, with 18 years of experience in US and Canada, where she effectively implemented various offshore/onshore resource staffing models (India). An advocate for retaining IT talent in Romania, where she wants to apply her management and leadership knowledge. She is relocating back to Romania, with the strong belief that our country is becoming an outsourcing destination for corporations all over the world. Come and hear her emigration and repatriation story.",
                 "title": "IT Manager",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/diana.lefter.jpg"
             },
             {
                 "name": "Alex Morarasu",
                 "bio": "Welcome the challenge of solving problems. With 10+ years of experience on different QA roles I look forward for new opportunities and challenges. Highly competitive, very ambitious, highly motivated, self-starter who is organized, disciplined, goal – oriented, willing to work hard to reach my objectives. I am a team person, very sociable and communicative. Excellent communication skills demonstrated by ability to work with people of diverse backgrounds. Listen to determine needs of customers before offering a solution. Quickly establish rapport with clients.",
                 "title": "Quality Manager",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/alexmurarasu.jpg"
             }
         ],
         "title": "[1 - Bring IT back home] [2- From zero to hero with Quality Assurance]",
@@ -815,7 +859,8 @@
                 "name": "Ciprian Ouatu",
                 "bio": "Ciprian is specialised in facilitating communication, management and sales programs, and he does this with responsibility, involvement and humour. He always wants to learn new things and is passionate about education, reading, photography and music. He is a part of ASCENDIS, the No. 1 company in developing people and organisations.",
                 "title": "Trainer, Consultant",
-                "company": "Ascendis Consulting"
+                "company": "Ascendis Consulting",
+                "photo": "http://iasi.codecamp.ro/images/speakers/ciprian.ouatu.jpg"
             }
         ],
         "title": "Team Synergy",
@@ -835,13 +880,15 @@
                 "name": "Robert Tamas",
                 "bio": "IT professionals with a keen interest in software full delivery life-cycle aimed at offering best value given the right contextual approach, practices and methodologies.",
                 "title": "Develpment Lead",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/robert_tamas.jpg"
             },
             {
                 "name": "Dragos Tudorache",
                 "bio": "IT professionals with a keen interest in software full delivery life-cycle aimed at offering best value given the right contextual approach, practices and methodologies.",
                 "title": "Develpment Lead",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/dragos_tudorache.jpg"
             }
         ],
         "title": "All you need to know about mutation testing",
@@ -861,7 +908,8 @@
                 "name": "Luigi Lauro",
                 "bio": "Enterprise Architect and Senior Software Analyst and Developer with wide experiences in services, application and web development (Java, Scala, .NET, C/C++, most scripting languages), databases, networks, operating systems (FreeBSD, Mac OS X, Linux, Windows), hardware and software security (parallel computing and cryptology are some of his main interests).",
                 "title": "IT Architect",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/luigi.lauro.jpg"
             }
         ],
         "title": "Java Developers: how to go from 5 to 9 (A journey through the best and hidden features that came over to Java in the last decade)",
@@ -881,7 +929,8 @@
                 "name": "Bogdan Litescu",
                 "bio": "Bogdan Litescu is a software developer and business geek, balancing strategy and execution in product development for over 12 years. His skill set is at the intersection of business, customer and technical worlds. For DNN Sharp which he’s running, this translates into high tech software products that provide brilliantly simple solutions to real problems and unparalleled support. There's no surprise that the company is at the top of the DNN ecosystem. Inside the community, Bogdan is seen as the quiet guy with a vision to transform DNN into a next generation platform.",
                 "title": "Owner",
-                "company": "DNN Sharp"
+                "company": "DNN Sharp",
+                "photo": "http://iasi.codecamp.ro/images/speakers/bogdan.litescu.jpg"
             }
         ],
         "title": "Developer Guide to Founding a Startup",
@@ -901,7 +950,8 @@
                 "name": "Bianca Ionel",
                 "bio": "Roxana Bianca Ionel works as IT Specialist for Expert Moldova Trading. She develops websites in Magento, Prestashop and Wordpress, and relaxes doing some design, but she's strong interest is Magento. After she took the degree in Informatica Economica, 3 years ago, she fall in love with Magento, and their relationship is more stronger every day. During her free time she likes to write on her professional blog (http://www.biancaionel.com/blog) tutorials for programmers.",
                 "title": "IT Specialist",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/bianca.ionel.jpg"
             }
         ],
         "title": "45 minutes Magento tour",
@@ -921,13 +971,15 @@
                 "name": "Camelia Codarcea",
                 "bio": "Agile Consultant, Trainer and Coach",
                 "title": "Cofounder AgileHub",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/camelia.codarcea.jpg"
             },
             {
                 "name": "Corneliu Constantin FATULESCU",
                 "bio": "Agile coach, father, CTO of Pentalog Group, co-founder of AgileHub and manager at Pentalog Institute, Cornel FĂTULESCU is a passionate agile coach & trainer. With an incredible portfolio in IT Services and 15 years of experience, Cornel ventures Pentalog Institute in the challenging world of IT consultancy. As an agile advocate, he optimized business value delivered within various large scale organizations by implementing XP, Scrum and Kanban. “In my opinion, involvement in agile communities is like witnessing the inevitable metamorphosis of companies continuously progressing until the educational big bang occurs”. This is mainly the reason why Cornel co-created AgileHub in Brașov, probably the most dynamic Agile IT community in Romania, where he is a very important knowledge contributor.",
                 "title": "cofounder AgileHub",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/cornel.fatulescu.jpg"
             }
         ],
         "title": "A new perspective on agile work and what agility means",
@@ -947,7 +999,8 @@
                 "name": "Horia Popa",
                 "bio": "I started my career as a C/C++ developer, worked on various projects using various technologies. Now, after having developed software for the likes of Nokia, Intel, Volkswagen and others I find myself on the management side for TiVo - a Silicon Valley based company. I am currently also a partner in a local company, iColdo.",
                 "title": "Software Development Manager",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/horia.popa.jpg"
             }
         ],
         "title": "A short introduction to VR",
@@ -967,7 +1020,8 @@
                 "name": "Dirla Vasile",
                 "bio": "Senior Java Developer with more than 10 years experience in web application development.",
                 "title": "Activiti Core Developer",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/dirla.vasile.png"
             }
         ],
         "title": "Activiti - The workflow engine of your application",
@@ -987,7 +1041,8 @@
                 "name": "Ciprian Redinciuc",
                 "bio": "I'm a passionate iOS developer with a taste for fine crafted mobile apps.",
                 "title": "iOS Developer",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/ciprian.redinciuc.jpg"
             }
         ],
         "title": "Continuos Delivery for iOS Projects",
@@ -1007,7 +1062,8 @@
                 "name": "Andreea Popescu",
                 "bio": "I'm a curious QA Engineer at Zitec, passionate about photography, reading, science and learning.",
                 "title": "QA Engineer",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/andreea.popescu.jpg"
             }
         ],
         "title": "Wisdom is the bug killer",
@@ -1027,7 +1083,8 @@
                 "name": "Nechita Radu",
                 "bio": "Radu Marian Nechita - training partner",
                 "title": "Training partner Mentor Training",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/RaduNechita.jpg"
             }
         ],
         "title": "The coaching role on employee retention and individual performance",
@@ -1047,13 +1104,15 @@
                 "name": "Alex Michel",
                 "bio": "Architect, mentor, software design and development lead in Financial Services. Design and development of real time trading products, risk management applications, online payment processing and back office tools. Full product life cycle management and support.",
                 "title": "Chief Architect",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/alex.michael.jpg"
             },
             {
                 "name": "Silviu Eigel",
                 "bio": "Team leader for a FOREX trading platform with a focus on online payment processing.",
                 "title": "Team Leader",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/silviueigel.png"
             }
         ],
         "title": "Service Bus Integration Patterns",
@@ -1073,13 +1132,15 @@
                 "name": "Jozua Velle",
                 "bio": "Jozua Velle",
                 "title": "Unit Manager Storeworld",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/jozua.velle.jpg"
             },
             {
                 "name": "Dan Vulpe",
                 "bio": "Proud father of two and passionate software engineer with a strong focus on code quality and low technical debt.",
                 "title": "Software Engineer",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/dan.vulpe.jpg"
             }
         ],
         "title": "How we did it! 100+ continuous deployments per day… while having a coffee",
@@ -1099,7 +1160,8 @@
                 "name": "Sorin Peste",
                 "bio": "Sorin has been a part of the Enterprise Services unit within Microsoft Romania since 2011, and has been busy developing software on the Microsoft technology stack since 2001. Recently he has taken on the Technical Evangelist role and will engage more actively with developers and IT Professionals, showcasing the newest Microsoft solutions and technology.",
                 "title": "Technical Evangelist, Microsoft Romania",
-                "company": "Microsoft"
+                "company": "Microsoft",
+                "photo": "http://iasi.codecamp.ro/images/speakers/sorin.peste.jpg"
             }
         ],
         "title": "Building an IoT Solution Using Azure IoT Hub, Stream Analytics, Machine Learning, and PowerBI",
@@ -1119,7 +1181,8 @@
                 "name": "Doina Movila",
                 "bio": "https://ro.linkedin.com/pub/doina-movila/a0/474/86a",
                 "title": "Social Media Analyst",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/doina.movila.jpg"
             }
         ],
         "title": "Blue Chip Companies and their Social Media Tactics in Sales",
@@ -1139,7 +1202,8 @@
                 "name": "Vasile Putină",
                 "bio": "Agile Coach. Agile transition program coordinator at Pentalog.",
                 "title": "Agile Coach & trainer. Agile transition program coordinator.",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/vasile.putina.png"
             }
         ],
         "title": "The hidden impediments to agile adoption",
@@ -1159,19 +1223,22 @@
                 "name": "George Raut",
                 "bio": "https://ro.linkedin.com/in/georgeraut",
                 "title": "Analytics Specialists Leader",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/george.raut.png"
             },
             {
                 "name": "Bogdan Suchar",
                 "bio": "https://ro.linkedin.com/in/georgeraut",
                 "title": "Account Manager",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/bogdan.suchar.png"
             },
             {
                 "name": "Oana Scutarasu",
                 "bio": "https://ro.linkedin.com/in/georgeraut",
                 "title": "Marketing Automation Team Leader",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/oana.scutarasu.png"
             }
         ],
         "title": "Marketing Automation Distillery",
@@ -1191,7 +1258,8 @@
                 "name": "Alexandru-Cristian Balmuș",
                 "bio": "Alex has been an R&D engineer for 7 years. Besides software development he also had occasional coordinating and training responsibilities. He is excited about the enterprise – open source synergy, multi-platform development technologies and, above all, he enjoys helping others to learn about these.",
                 "title": "R&D Engineer",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/alexandru-cristian.balmus.jpg"
             }
         ],
         "title": "Intro to Alfresco Development",
@@ -1211,7 +1279,8 @@
                 "name": "Mitrofan Marius",
                 "bio": "Google Apps Certified Administrator with full background knowledge of the following key technologies :",
                 "title": "Application Support Lead",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/marius_mitrofan.jpg"
             }
         ],
         "title": "DevOps on Google's Compute Engine",
@@ -1231,13 +1300,15 @@
                 "name": "Alexandru Pascariu",
                 "bio": "- software developer - Centric IT Solutions",
                 "title": "Automation QA",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/alexandrupascariu.jpg"
             },
             {
                 "name": "Bogdan Florea",
                 "bio": "- Java developer -The Red Point, Pentalog and Yonder",
                 "title": "Senior Java Developer",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/bogdanflorea.jpg"
             }
         ],
         "title": "How to write “Software that matters” using BDD concepts on Java platform",
@@ -1257,7 +1328,8 @@
                 "name": "Andrei Postolache",
                 "bio": "I’m a co-founder and trainer at Introspecials with a focus on modern organizations, leadership, agility, lean, learning, culture and communication.",
                 "title": "Trainer",
-                "company": "N/A"
+                "company": "N/A",
+                "photo": "http://iasi.codecamp.ro/images/speakers/andrei.postolache.jpg"
             }
         ],
         "title": "Lucruri de care mi-e frică, și cele de care nu",

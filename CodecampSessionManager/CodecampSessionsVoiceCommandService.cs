@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Windows.ApplicationModel.AppService;
 using Windows.ApplicationModel.Background;
 using Windows.ApplicationModel.VoiceCommands;
+using Windows.Storage;
+using Windows.Storage.Streams;
 using Codecamp.Common.Agenda;
 using Codecamp.Common.Models;
 using Codecamp.Common.Tools;
@@ -94,14 +96,20 @@ namespace CodecampSessionManager
             foreach (var kvp in results)
             {
                 var destinationTile = new VoiceCommandContentTile();
-                destinationTile.ContentTileType = VoiceCommandContentTileType.TitleWithText;
+                destinationTile.ContentTileType = VoiceCommandContentTileType.TitleWith68x68IconAndText;
                 destinationTile.AppLaunchArgument = kvp.Title.GetValidString();
                 destinationTile.TextLine1 = kvp.Title.GetValidString();
                 destinationTile.TextLine2 = kvp.Speakers[0].Name.GetValidString();
                 destinationTile.TextLine3 = kvp.Location.Room.GetValidString();
+                IRandomAccessStreamReference thumbnail =
+    RandomAccessStreamReference.CreateFromUri(new Uri(kvp.Speakers[0].Photo));
+                destinationTile.Image = await StorageFile.CreateStreamedFileFromUriAsync(kvp.Title,
+                    new Uri(kvp.Speakers[0].Photo), thumbnail);
+                destinationTile.AppLaunchArgument = kvp.Title;
                 destinationsContentTiles.Add(destinationTile);
             }
             var response = VoiceCommandResponse.CreateResponse(userMessage, destinationsContentTiles);
+            response.AppLaunchArgument = "session";
             await voiceServiceConnection.ReportSuccessAsync(response);
         }
 
