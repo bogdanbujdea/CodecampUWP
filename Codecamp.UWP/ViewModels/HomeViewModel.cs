@@ -1,27 +1,15 @@
-﻿using Windows.ApplicationModel.VoiceCommands;
-using Windows.UI.Core;
-using Windows.UI.Xaml;
+﻿using Windows.UI.Core;
 using Codecamp.Common.Agenda;
 using Codecamp.Common.Models;
-using Codecamp.Common.Tools;
 
 namespace Codecamp.UWP.ViewModels
 {
     using System.Diagnostics;
     using System.Linq;
-    using System.Text.RegularExpressions;
     using Windows.Media.SpeechRecognition;
-    using Windows.UI.Popups;
-
-    using System.IO;
-    using System.Text;
     using System.Threading.Tasks;
-    using Windows.Storage;
-    using Newtonsoft.Json;
-
     using System;
     using System.ComponentModel;
-    using System.Collections.Generic;
     using System.Collections.ObjectModel;
     using System.Runtime.CompilerServices;
     using Annotations;
@@ -40,23 +28,6 @@ namespace Codecamp.UWP.ViewModels
             _agendaService = new AgendaService();
             var sessions = await _agendaService.GetSessionsAsync();
             CodecampSessions = new ObservableCollection<Session>(sessions);
-           
-            /*  VoiceCommandSet voiceCommandSet;
-              Debug.WriteLine(VoiceCommandManager.InstalledCommandSets.Count());
-              if (VoiceCommandManager.InstalledCommandSets.TryGetValue("CodecampCommandSet", out voiceCommandSet))
-              {
-                  var wordsFromJson = _agendaService.GetWordsFromJson().Where(w => w.Length >= 3).Distinct().ToList();
-                  await voiceCommandSet.SetPhraseListAsync("food", wordsFromJson);
-              }*/
-            /* Windows.ApplicationModel.VoiceCommands.VoiceCommandDefinition commandSetEnUs;
-
-              if (Windows.ApplicationModel.VoiceCommands.VoiceCommandDefinitionManager.
-                    InstalledCommandDefinitions.TryGetValue(
-                      "CodecampCommandSet", out commandSetEnUs))
-              {
-                  var wordsFromJson = _agendaService.GetWordsFromJson().Where(w => w.Length >= 3).Distinct().ToList();
-                  await commandSetEnUs.SetPhraseListAsync("keyword", wordsFromJson);
-              }*/
         }
 
         public ObservableCollection<Session> CodecampSessions
@@ -139,31 +110,30 @@ namespace Codecamp.UWP.ViewModels
         {
             await
                   Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(
-                      CoreDispatcherPriority.Normal, async () =>
+                      CoreDispatcherPriority.Normal, () =>
                       {
-                          await ProcessCommandsAsync(args.Result);
+                          ProcessCommands(args.Result);
                           FindResults(args);
                       });
         }
 
-        private async Task ProcessCommandsAsync(SpeechRecognitionResult result)
+        private void ProcessCommands(SpeechRecognitionResult result)
         {
             switch (result.Text)
             {
                 case "stop":
-                    await StopVoiceRecognition();
+                    StopVoiceRecognition();
                     break;
             }
         }
 
-        private async Task StopVoiceRecognition()
+        private void StopVoiceRecognition()
         {
             try
             {
                 CodecampSessions = new ObservableCollection<Session>(_agendaService.AllSessions);
                 _speechRecognizer.Dispose();
                 _speechRecognizer = null;
-                //await _speechRecognizer.StopRecognitionAsync();
                 IsListening = false;
                 SpokenTextIsVisible = false;
             }
@@ -175,8 +145,6 @@ namespace Codecamp.UWP.ViewModels
 
         private void FindResults(SpeechContinuousRecognitionResultGeneratedEventArgs args)
         {
-            IsListening = false;
-
             var results = _agendaService.FindSessionsByKeyword(args.Result.Text);
             var list = results.Where(r => r.Value > 0).OrderByDescending(r => r.Value).Take(10);
 
@@ -185,6 +153,12 @@ namespace Codecamp.UWP.ViewModels
             {
                 CodecampSessions.Add(keyValuePair.Key);
             }
+        }
+
+        public async Task FindSessionsByRoom(string roomNumber)
+        {
+            var results = await _agendaService.FindSessionsByRoom("Room " + roomNumber);
+            CodecampSessions = new ObservableCollection<Session>(results);
         }
     }
 }

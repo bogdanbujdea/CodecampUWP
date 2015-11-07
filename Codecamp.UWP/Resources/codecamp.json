@@ -1,1268 +1,1274 @@
 [
-  {
-    "speakers": [
-      {
-        "name": "Anghel Adrian-Claudiu",
-        "bio": "n/a",
-        "title": "Developer",
-        "company": "Unicredit"
-      }
-    ],
-    "title": "New architecture design: Micro services and Continuous Integration",
-    "language": "(English)",
-    "description": "The presentation will focus around new architecture trends and issues regarding continuous integration.",
-    "location": {
-      "room": "Room 1",
-      "seats": 100,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Anghel Adrian-Claudiu",
+                "bio": "n/a",
+                "title": "Developer",
+                "company": "Unicredit"
+            }
+        ],
+        "title": "New architecture design: Micro services and Continuous Integration",
+        "language": "(English)",
+        "description": "The presentation will focus around new architecture trends and issues regarding continuous integration.",
+        "location": {
+            "room": "Room 1",
+            "seats": 100,
+            "floor": -2
+        },
+        "startTime": "11:00",
+        "endTime": "11:45"
     },
-    "startTime": "11:00",
-    "endTime": "11:45",
-    "tags": ["micro services", "architecture", "continuous integration"]
-  },
-  {
-    "speakers": [
-      {
-        "name": "Archit Lohokare",
-        "bio": "Archit Lohokare is the Senior Director of Platform Product Management at Optymyze, the market leader in Sales Performance Management. Prior to this, he was the Director of Product Management for Symantec's Cloud Information Protection security as a service. Before Symantec, Archit managed IBM's market leading Access Management product line comprising of web access management, identity federation, enterprise single sign-on, risk-based access and entitlements management products. Archit joined IBM through the acquisition of Encentuate, a leading Bay Area startup in the security space, of which he was an early member. At Encentuate, Archit held roles in the engineering, professional services, support, and pre-sales organizations. Archit has an MBA from UC Berkeley-Haas School of Business and a Bachelors degree in Computer Engineering from NTU, Singapore where he was awarded the SIA-NOL undergraduate scholarship by the Ministry of Education, Singapore.",
-        "title": "Senior Director, Platform Product Management",
-        "company": "Optymyze"
-      }
-    ],
-    "title": "Cloud Security for the new Digital and SaaS Enterprise",
-    "language": "(English)",
-    "description": "In today’s digital age, enterprises and their lines of businesses are increasingly adopting the cloud not just for their internal applications and the infrastructure that hosts those applications to boost their bottom line, but also to engage with their own customers and positively impact their top line. This digital and cloud transformation of their businesses brings for a myriad of security and compliance challenges for the organization. In this session, the speaker delves into these challenges and discusses aspects of the cloud security and compliance architectures these enterprises should consider and invest in as they embark on the cloud journey.",
-    "location": {
-      "room": "Room 2",
-      "seats": 250,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Archit Lohokare",
+                "bio": "Archit Lohokare is the Senior Director of Platform Product Management at Optymyze, the market leader in Sales Performance Management. Prior to this, he was the Director of Product Management for Symantec's Cloud Information Protection security as a service. Before Symantec, Archit managed IBM's market leading Access Management product line comprising of web access management, identity federation, enterprise single sign-on, risk-based access and entitlements management products. Archit joined IBM through the acquisition of Encentuate, a leading Bay Area startup in the security space, of which he was an early member. At Encentuate, Archit held roles in the engineering, professional services, support, and pre-sales organizations. Archit has an MBA from UC Berkeley-Haas School of Business and a Bachelors degree in Computer Engineering from NTU, Singapore where he was awarded the SIA-NOL undergraduate scholarship by the Ministry of Education, Singapore.",
+                "title": "Senior Director, Platform Product Management",
+                "company": "Optymyze"
+            }
+        ],
+        "title": "Cloud Security for the new Digital and SaaS Enterprise ",
+        "language": "(English)",
+        "description": "In today’s digital age, enterprises and their lines of businesses are increasingly adopting the cloud not just for their internal applications and the infrastructure that hosts those applications to boost their bottom line, but also to engage with their own customers and positively impact their top line. This digital and cloud transformation of their businesses brings for a myriad of security and compliance challenges for the organization. In this session, the speaker delves into these challenges and discusses aspects of the cloud security and compliance architectures these enterprises should consider and invest in as they embark on the cloud journey. ",
+        "location": {
+            "room": "Room 2",
+            "seats": 250,
+            "floor": -2
+        },
+        "startTime": "11:00",
+        "endTime": "11:45"
     },
-    "startTime": "11:00",
-    "endTime": "11:45",
-    "tags": ["cloud", "securiy", "saas"]
-  },
-  {
-    "speakers": [
-      {
-        "name": "Mihai Alexandru Bîrsan",
-        "bio": "Passionate about front-end technologies and the web. Codes by night, manages brilliant engineers by day. Still believes boring problems should be automated away through coding. Looks for interesting problems to solve with other skills.",
-        "title": "Software Development Manager",
-        "company": "N/A"
-      }
-    ],
-    "title": "Non-Native Mobile Apps",
-    "language": "(English)",
-    "description": "You've built a great web app! It even works offline! The logical next step is to make it work on your smartphone. Let's walk through what through 3 important aspects to really call it mobile: you want it to be responsive, you want to use system-level functions and you want it well packaged. (PS. In this talk, I'll brush the surface of what it takes to make a web app work well on the mobile, and try to send you in the right direction. If you want to roll up your sleeves and create one right away, I recommend you attend Mihai Bura's talk about Ionic, at 11am in Room 4.)",
-    "location": {
-      "room": "Room 3",
-      "seats": 100,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Butnariu Cristi",
+                "bio": "I'm a passionate and enthusiastic software developer working on BeeNear, with a 10+ years experience in building software for retail markets from abroad using Microsoft technologies.",
+                "title": "Senior Programmer",
+                "company": "BeeNear"
+            }
+        ],
+        "title": "Voice Technology in Warehousing",
+        "language": "Romanian",
+        "description": "Until recently, the idea of holding a conversation with a computer seemed pure science fiction. But things are changing, and quickly. A growing number of people now talk to their mobile smart phones, asking them to send e-mail and text messages, search for directions, or find information on the Web. Now the rapid rise of powerful mobile devices is making voice interfaces even more useful and pervasive. Speech is ideally suited to mobile computing because a single spoken command can accomplish tasks that would normally require a multitude of swipes and presses. In this presentation we will try to see how we can make a mobile hybrid application driven by voice commands, using technologies like Apache Cordova mobile development framework, HTML5, Javascript and Google Voice Recognition API.",
+        "location": {
+            "room": "Room 3",
+            "seats": 100,
+            "floor": -2
+        },
+        "startTime": "11:00",
+        "endTime": "11:45"
     },
-    "startTime": "11:00",
-    "endTime": "11:45",
-    "tags": ["mobile", "apps"]
-  },
-  {
-    "speakers": [
-      {
-        "name": "Mihai Bura",
-        "bio": "Being an eager learner and tech savvy, Mihai is helping Yonder deliver the best front end experience for their customers. He enjoys challenging mentees to learn and discover new ways of building the web.",
-        "title": "Web Developer",
-        "company": "N/A"
-      }
-    ],
-    "title": "Ionic - A framework for mobile development",
-    "language": "(English)",
-    "description": "Mobile development done right needs to cover at least a number of areas. Prototyping - Use customizable block-like components Development - Write the backbone of your application using AngularJS and ngCordova Build and Emulate - A strong CLI will help you build your app using Gulp and then emulate it either in the browser, emulator, or on your very own device Deploy - One-click-deploy to your device? Yup, that's possible Analytics - Learn about the people using your app with less effort Ionic comes to help and puts in our hands a beautiful framework that keeps us focused at what we should be doing: develop amazing apps.",
-    "location": {
-      "room": "Room 4",
-      "seats": 20,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Cristi Ursachi",
+                "bio": "I have been developing software for global enterprises since 2003 mainly using Microsoft technologies and I was involved in all phases of building a product from planning, architecture and development till deployment and maintenance. On the other side I was always passionate and interested about low-level implementations of software, especially databases.As result I founded his start-up and I'm working now on CryptonorDB, a product that will change the way of using a database in the cloud.",
+                "title": "Entrepreneur",
+                "company": "N/A"
+            }
+        ],
+        "title": "Build apps using a zero-knowledge cloud database",
+        "language": "(English)",
+        "description": "Data privacy is a fundamental problem nowadays. Many organizations and individuals are concerned about privacy and what can happen with their data stored in the cloud. In this session will see how you can practically build apps using a cloud database which knows nothing about the data stored, but at the same time being able to query it.",
+        "location": {
+            "room": "Room 4",
+            "seats": 20,
+            "floor": -2
+        },
+        "startTime": "11:00",
+        "endTime": "11:45"
     },
-    "startTime": "11:00",
-    "endTime": "11:45",
-    "tags": ["ionic", "mobile", "prototyping", "angular js", "cordova"]
-  },
-  {
-    "speakers": [
-      {
-        "name": "Cristi Ursachi",
-        "bio": "I have been developing software for global enterprises since 2003 mainly using Microsoft technologies and I was involved in all phases of building a product from planning, architecture and development till deployment and maintenance. On the other side I was always passionate and interested about low-level implementations of software, especially databases.As result I founded his start-up and I'm working now on CryptonorDB, a product that will change the way of using a database in the cloud.",
-        "title": "Entrepreneur",
-        "company": "N/A"
-      }
-    ],
-    "title": "Build apps using a zero-knowledge cloud database",
-    "language": "(English)",
-    "description": "Data privacy is a fundamental problem nowadays. Many organizations and individuals are concerned about privacy and what can happen with their data stored in the cloud. In this session will see how you can practically build apps using a cloud database which knows nothing about the data stored, but at the same time being able to query it.",
-    "location": {
-      "room": "Room 5",
-      "seats": 30,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Daniel Leon",
+                "bio": "I'm a Linux enthusiast and a proactive learner. I like finding the best solutions and putting them into practice.",
+                "title": "Senior Software Developer",
+                "company": "N/A"
+            }
+        ],
+        "title": "Spark: The beginnings",
+        "language": "(English)",
+        "description": "Are you a Java developer interested in big data processing and never had the chance to work with Apache Spark ? My presentation aims to help you get familiar with Spark concepts and start developing your own distributed processing application. ",
+        "location": {
+            "room": "Room 5",
+            "seats": 30,
+            "floor": -2
+        },
+        "startTime": "11:00",
+        "endTime": "11:45"
     },
-    "startTime": "11:00",
-    "endTime": "11:45",
-    "tags": ["apps", "cloud", "database"]
-  },
-  {
-    "speakers": [
-      {
-        "name": "Mircea Pricop",
-        "bio": "I joined Google fresh off the benches of the University of Hamburg, where I transferred to after starting my CS education right here in Iasi. Having been at Google for three years now, I'm currently focusing on information extraction, aggregation and data understanding as part of developing exciting new search features.",
-        "title": "Software Engineer",
-        "company": "Google"
-      }
-    ],
-    "title": "Use your data to understand the world: extracting meaning out of free form text and beyond.",
-    "language": "(English)",
-    "description": "Word embeddings are one of the most exciting topics in machine learning today, and thanks to recent developments it's never been easier to harness their power. Starting from a simple problem, we'll have a look at how and why they work, see them in action on the Google cloud, then peek at how these concepts can be help you with your own challenges.",
-    "location": {
-      "room": "Room 6",
-      "seats": 20,
-      "floor": -1
+    {
+        "speakers": [
+            {
+                "name": "Remus Langu",
+                "bio": "Remus is a software engineer with a high interest in Agile practices (XP, BDD/TDD, Emergent Design,…) and Software Craftsmanship.",
+                "title": "Design Lead",
+                "company": "Endava"
+            }
+        ],
+        "title": "Handling Variations in Emerging Designs",
+        "language": "(English)",
+        "description": "One thing that Agile Software Development manifesto promises and values more is 'Responding to change over following a plan'. Achieving this value by properly handling variations within the problem domain is one of the biggest challenges. In this talk I will share some techniques from Emergent Design that I use when dealing with changes.",
+        "location": {
+            "room": "Room 6",
+            "seats": 20,
+            "floor": -1
+        },
+        "startTime": "11:00",
+        "endTime": "11:45"
     },
-    "startTime": "11:00",
-    "endTime": "11:45",
-    "tags": ["data", "meaning"]
-  },
-  {
-    "speakers": [
-      {
-        "name": "Alexandru Pascariu",
-        "bio": "- software developer - Centric IT Solutions",
-        "title": "Automation QA",
-        "company": "N/A"
-      },
-      {
-        "name": "Bogdan Florea",
-        "bio": "- Java developer -The Red Point, Pentalog and Yonder",
-        "title": "Senior Java Developer",
-        "company": "N/A"
-      }
-    ],
-    "title": "How to write “Software that matters” using BDD concepts on Java platform",
-    "language": "(English)",
-    "description": "General presentation on BDD (Behaviour-Driven Development) concepts from the perspective of an Automation QA and a Java developer. BDD tools: Cucumber and JBehave.",
-    "location": {
-      "room": "Room 7",
-      "seats": 20,
-      "floor": -1
+    {
+        "speakers": [
+            {
+                "name": "Antonio Caciuc",
+                "bio": "Just a guy, working towards a future when the things that make us weak and strange get engineered away.",
+                "title": "HackerSpace Pilot",
+                "company": "N/A"
+            }
+        ],
+        "title": "Creative Programming",
+        "language": "(English)",
+        "description": "Make art with computer programming",
+        "location": {
+            "room": "Room 7",
+            "seats": 20,
+            "floor": -1
+        },
+        "startTime": "11:00",
+        "endTime": "11:45"
     },
-    "startTime": "11:00",
-    "endTime": "11:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Cristian Falcas",
-        "bio": "I'm 36 years old, born in Iasi and working for almost 3 years as a dev-ops engineer at Optymyze/Synygy/ArezzoSky.",
-        "title": "Dev-Ops",
-        "company": "N/A"
-      }
-    ],
-    "title": "Automate your failures. A story about docker and kubernetes.",
-    "language": "(English)",
-    "description": "What is docker, how it works and how it compares with virtualization techniques. How kubernetes is automating docker containers and how the focus changed from keeping an application up as log as possible, to how to replace a misbehaving application as soon as possible.",
-    "location": {
-      "room": "Room 8",
-      "seats": 35,
-      "floor": 0
+    {
+        "speakers": [
+            {
+                "name": "Radu Iscu",
+                "bio": "Radu has been a software professional for a while now. He's worked on both small and large projects, small and large companies, and in this time he's learned a lot of stuff about code. He's passionate about extreme programming, flexible design, emergent architecture and refactoring, to the point where he won't stop talking about it.",
+                "title": "Solution Architect",
+                "company": "N/A"
+            }
+        ],
+        "title": "Useful code metrics",
+        "language": "(English)",
+        "description": "Code metrics are important. They offer us quantitative and qualitative information about our software, or so we've been told. In this presentation we'll be talking about a few useless metrics and a few more useful ones that will help us more about understanding our code, and the tools we can use to get them.",
+        "location": {
+            "room": "Room 8",
+            "seats": 35,
+            "floor": 0
+        },
+        "startTime": "11:00",
+        "endTime": "11:45"
     },
-    "startTime": "11:00",
-    "endTime": "11:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Hrubaru Ana-Maria",
-        "bio": "10+ years experience in the testing process in different software development models at all the testing levels.",
-        "title": "Software Engineering Manager @Optymyze",
-        "company": "N/A"
-      }
-    ],
-    "title": "Testing Under Way",
-    "language": "(English)",
-    "description": "The development of the Testing market in Iasi in the last 10 years and the future challenges.",
-    "location": {
-      "room": "Room 9",
-      "seats": 100,
-      "floor": 11
+    {
+        "speakers": [
+            {
+                "name": "Hrubaru Ana-Maria",
+                "bio": "10+ years experience in the testing process in different software development models at all the testing levels.",
+                "title": "Software Engineering Manager @Optymyze",
+                "company": "N/A"
+            }
+        ],
+        "title": "Testing Under Way",
+        "language": "Romanian",
+        "description": "The development of the Testing market in Iasi in the last 10 years and the future challenges.",
+        "location": {
+            "room": "Room 9",
+            "seats": 100,
+            "floor": 11
+        },
+        "startTime": "11:00",
+        "endTime": "11:45"
     },
-    "startTime": "11:00",
-    "endTime": "11:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Adrian Rindasu",
-        "bio": "Adrian co founded Edurom in 2002. Since then, he developed and delivered training and consultancy programs for various companies in the software development industry. He is running Belbin & Situational Leadership trainings for the IT&C clients of Edurom.",
-        "title": "Managing Partner",
-        "company": "EDUROM"
-      }
-    ],
-    "title": "Thinking Strategically",
-    "language": "(English)",
-    "description": "This presentation challenges leaders to broaden their perspectives, and question conventional wisdom. Participants will be able to: - Describe what strategic thinking is and how it differs from strategic planning and execution - Recognize and demonstrate the characteristics and behaviors of strategic thinkers - Identify and overcome the barriers that impede strategic thinking",
-    "location": {
-      "room": "Room 10",
-      "seats": 50,
-      "floor": 11
+    {
+        "speakers": [
+            {
+                "name": "Raluca Breaur",
+                "bio": "Raluca is an Agile enthusiast with 12 years of experience in software development.",
+                "title": "Delivery Manager",
+                "company": "N/A"
+            },
+            {
+                "name": "Florin Cardasim",
+                "bio": "Florin is the Group Head of Development at Endava. Beyond his technical skills, Florin has gained a broad experience as a trainer for companies and speaker in community events. Florin is also co-founder of CodeCamp, one of the largest communities of software developers in Romania.",
+                "title": "Codecamper",
+                "company": "N/A"
+            }
+        ],
+        "title": "Lean - change the game",
+        "language": "(English)",
+        "description": "We'll explore the Lean ecosystem and wonder how we can change the game",
+        "location": {
+            "room": "Room 10",
+            "seats": 50,
+            "floor": 11
+        },
+        "startTime": "11:00",
+        "endTime": "11:45"
     },
-    "startTime": "11:00",
-    "endTime": "11:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Florin Ciubotaru",
-        "bio": "Florin is an engineer with an interest in building complex systems with high impact. He experiments with various leadership forms and is interested in various human factors surrounding information systems. He is currently fulfilling his passion as a Tech Lead at Pentalog.",
-        "title": "Technical Lead",
-        "company": "Pentalog"
-      }
-    ],
-    "title": "Stories from the aviation industry",
-    "language": "(English)",
-    "description": "Most of us use air travel and expect it to work perfectly. Did you ever wonder what are the IT challenges surrounding planes, airports and air traffic control? Join us as we have a look at a few information systems from the aviation industry.",
-    "location": {
-      "room": "Room 1",
-      "seats": 100,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Florin Ciubotaru",
+                "bio": "Florin is an engineer with an interest in building complex systems with high impact. He experiments with various leadership forms and is interested in various human factors surrounding information systems. He is currently fulfilling his passion as a Tech Lead at Pentalog.",
+                "title": "Technical Lead",
+                "company": "Pentalog"
+            }
+        ],
+        "title": "Stories from the aviation industry",
+        "language": "Romanian",
+        "description": "Most of us use air travel and expect it to work perfectly. Did you ever wonder what are the IT challenges surrounding planes, airports and air traffic control? Join us as we have a look at a few information systems from the aviation industry.",
+        "location": {
+            "room": "Room 1",
+            "seats": 100,
+            "floor": -2
+        },
+        "startTime": "12:00",
+        "endTime": "12:45"
     },
-    "startTime": "12:00",
-    "endTime": "12:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Sebastian Agachie",
-        "bio": "Sebastian believes that curiosity, motivation and the right attitude are the key ingredients of achieving everything you want. Although in his career Sebastian covered almost every position in IT, from networking to development, he always had an incredible passion for security.",
-        "title": "Ethical Hacker, Security Specialist",
-        "company": "Centric"
-      },
-      {
-        "name": "Elger Jonker",
-        "bio": "Elger believes the world is a better place when knowledge, research and joy are shared. Therefore he has helped establish several hackerspaces in the Netherlands, is active in a foundation that shares the joy of retro gaming and helps organizing the world’s biggest outdoor hacker conference in 2017.",
-        "title": "Ethical Hacker, Security Lead",
-        "company": "Centric"
-      }
-    ],
-    "title": "Security Going Wrong",
-    "language": "(English)",
-    "description": "In this presentation, we will discuss about the role and importance of security in our day to day activities in IT and also we will take a brief look at the artistic ways of security going wrong. We know that security is becoming an increasingly important concern in our development area, since most of the application are taking the world wide web path, being accessible over networks and are, as result, vulnerable to a wide variety of threats. In order to minimize the possibility of unauthorized code to access our application and manipulate sensitive data there were build security measures and routines.",
-    "location": {
-      "room": "Room 2",
-      "seats": 250,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Sebastian Agachie",
+                "bio": "Sebastian believes that curiosity, motivation and the right attitude are the key ingredients of achieving everything you want. Although in his career Sebastian covered almost every position in IT, from networking to development, he always had an incredible passion for security.",
+                "title": "Ethical Hacker, Security Specialist",
+                "company": "Centric"
+            },
+            {
+                "name": "Elger Jonker",
+                "bio": "Elger believes the world is a better place when knowledge, research and joy are shared. Therefore he has helped establish several hackerspaces in the Netherlands, is active in a foundation that shares the joy of retro gaming and helps organizing the world’s biggest outdoor hacker conference in 2017.",
+                "title": "Ethical Hacker, Security Lead",
+                "company": "Centric"
+            }
+        ],
+        "title": "Security Going Wrong",
+        "language": "(English)",
+        "description": "In this presentation, we will discuss about the role and importance of security in our day to day activities in IT and also we will take a brief look at the artistic ways of security going wrong. We know that security is becoming an increasingly important concern in our development area, since most of the application are taking the world wide web path, being accessible over networks and are, as result, vulnerable to a wide variety of threats. In order to minimize the possibility of unauthorized code to access our application and manipulate sensitive data there were build security measures and routines.",
+        "location": {
+            "room": "Room 2",
+            "seats": 250,
+            "floor": -2
+        },
+        "startTime": "12:00",
+        "endTime": "12:45"
     },
-    "startTime": "12:00",
-    "endTime": "12:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Butnariu Cristi",
-        "bio": "I'm a passionate and enthusiastic software developer working on BeeNear, with a 10+ years experience in building software for retail markets from abroad using Microsoft technologies.",
-        "title": "Senior Programmer",
-        "company": "BeeNear"
-      }
-    ],
-    "title": "Voice Technology in Warehousing",
-    "language": "(English)",
-    "description": "Until recently, the idea of holding a conversation with a computer seemed pure science fiction. But things are changing, and quickly. A growing number of people now talk to their mobile smart phones, asking them to send e-mail and text messages, search for directions, or find information on the Web. Now the rapid rise of powerful mobile devices is making voice interfaces even more useful and pervasive. Speech is ideally suited to mobile computing because a single spoken command can accomplish tasks that would normally require a multitude of swipes and presses. In this presentation we will try to see how we can make a mobile hybrid application driven by voice commands, using technologies like Apache Cordova mobile development framework, HTML5, Javascript and Google Voice Recognition API.",
-    "location": {
-      "room": "Room 3",
-      "seats": 100,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Mihai Alexandru Bîrsan",
+                "bio": "Passionate about front-end technologies and the web. Codes by night, manages brilliant engineers by day. Still believes boring problems should be automated away through coding. Looks for interesting problems to solve with other skills.",
+                "title": "Software Development Manager",
+                "company": "N/A"
+            }
+        ],
+        "title": "Non-Native Mobile Apps",
+        "language": "(English)",
+        "description": "You've built a great web app! It even works offline! The logical next step is to make it work on your smartphone. Let's walk through what through 3 important aspects to really call it mobile: you want it to be responsive, you want to use system-level functions and you want it well packaged. (PS. In this talk, I'll brush the surface of what it takes to make a web app work well on the mobile, and try to send you in the right direction. If you want to roll up your sleeves and create one right away, I recommend you attend Mihai Bura's talk about Ionic, at 11am in Room 4.)",
+        "location": {
+            "room": "Room 3",
+            "seats": 100,
+            "floor": -2
+        },
+        "startTime": "12:00",
+        "endTime": "12:45"
     },
-    "startTime": "12:00",
-    "endTime": "12:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Doina Movila",
-        "bio": "https://ro.linkedin.com/pub/doina-movila/a0/474/86a",
-        "title": "Social Media Analyst",
-        "company": "N/A"
-      }
-    ],
-    "title": "Blue Chip Companies and their Social Media Tactics in Sales",
-    "language": "(English)",
-    "description": "It's no secret that the sales world has changed and Social Media is the name of the new 'Sales Game'. Although it can still be a mystery for regular Jane's and Joe's, Blue Chip Companies already rely on social media tactics on how to maintain or gain more in Sales.",
-    "location": {
-      "room": "Room 4",
-      "seats": 20,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Bogdan Bujdea",
+                "bio": "I'm a Windows Platform Developer with ~4 years of experience on Windows apps, currently working for Feel IT. My favorite hobby is writing code, I knew this from high school and I managed to also turn it into a full-time job. Although I also worked with other languages and frameworks, I focused myself on developing apps with C#/XAML for the Windows Platform..",
+                "title": "Windows Platform Developer",
+                "company": "N/A"
+            }
+        ],
+        "title": "Using Cortana for voice activated apps",
+        "language": "Romanian",
+        "description": "Voice activated applications and voice recognition have become an increasingly popular concept in recent years. In this presentation my goal is to help you know when to use voice recognition, and what are its advantages and disadvantages. Considering that in these days every device supports voice recognition(smartwatches, smartphones, IoT devices, etc), knowing how and when to handle voice input is something that every developer should know. The code that I will write during the presentation will be in C#/XAML for UWP apps, but the presentation ideas also apply to other platforms that support voice recognition.",
+        "location": {
+            "room": "Room 4",
+            "seats": 20,
+            "floor": -2
+        },
+        "startTime": "12:00",
+        "endTime": "12:45"
     },
-    "startTime": "12:00",
-    "endTime": "12:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Paul Istoan",
-        "bio": "Paul is a software developer who's been slowly realizing that writing software is not that easy. From working on legacy projects to designing",
-        "title": "Software Development Engineer",
-        "company": "N/A"
-      }
-    ],
-    "title": "Writing Maintainable JavaScript",
-    "language": "(English)",
-    "description": "With a growing set of front-end technologies and a constant demand for new features from the customer, many developers are having a hard time keeping their project organized and flexible. Unperceptibly, what used to be a small and easily manageable collection of components becomes a mass of indecipherable legacy code. Luckily, these types of problems are not new, and the industry literature is abundant with materials on the topic, albeit oftentimes for other technologies. In this talk, Paul brings some of these proven solutions to the JavaScript world, providing the audience with real-world examples of managing code complexity to ensure developers keep sane and new features get shipped in reasonable time.",
-    "location": {
-      "room": "Room 5",
-      "seats": 30,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Cezar Romaniuc",
+                "bio": "I’m a Software Developer with over 4 years of experience in building Java based solutions related to payment, digital media, telecommunications, energy and ERP systems.",
+                "title": "Senior Java Developer",
+                "company": "Endava"
+            }
+        ],
+        "title": "Distributed processing of large datasets",
+        "language": "Romanian",
+        "description": "This presentation will give an overview of the Big Data trends in processing large datasets using NoSQL databases and cluster computing frameworks that can run applications faster than Hadoop by keeping data in memory.",
+        "location": {
+            "room": "Room 5",
+            "seats": 30,
+            "floor": -2
+        },
+        "startTime": "12:00",
+        "endTime": "12:45"
     },
-    "startTime": "12:00",
-    "endTime": "12:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Andrei Pruteanu",
-        "bio": "I am information processing specialist at Uber Research. My work focuses on performing complex data analysis on large research publication data-sets.",
-        "title": "Software engineer",
-        "company": "N/A"
-      }
-    ],
-    "title": "Lessons learned in starting and closing an IT company in Holland",
-    "language": "(English)",
-    "description": "The presentation is a lessons-learned session about starting and closing(failing) an IT company in Holland. It will be an interactive discussion about do's and don't's that I learned during such a process. Practical examples will be shown about technology, marketing and financing.",
-    "location": {
-      "room": "Room 6",
-      "seats": 20,
-      "floor": -1
+    {
+        "speakers": [
+            {
+                "name": "Paul Istoan",
+                "bio": "Paul is a software developer who's been slowly realizing that writing software is not that easy. From working on legacy projects to designing",
+                "title": "Software Development Engineer",
+                "company": "N/A"
+            }
+        ],
+        "title": "Writing Maintainable JavaScript",
+        "language": "(English)",
+        "description": "With a growing set of front-end technologies and a constant demand for new features from the customer, many developers are having a hard time keeping their project organized and flexible. Unperceptibly, what used to be a small and easily manageable collection of components becomes a mass of indecipherable legacy code. Luckily, these types of problems are not new, and the industry literature is abundant with materials on the topic, albeit oftentimes for other technologies. In this talk, Paul brings some of these proven solutions to the JavaScript world, providing the audience with real-world examples of managing code complexity to ensure developers keep sane and new features get shipped in reasonable time.",
+        "location": {
+            "room": "Room 6",
+            "seats": 20,
+            "floor": -1
+        },
+        "startTime": "12:00",
+        "endTime": "12:45"
     },
-    "startTime": "12:00",
-    "endTime": "12:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Radu Danciu",
-        "bio": "With over 7 years of experience in game development having shipped a couple of triple-A titles my goal is to provide memorable experiences to people who enjoy games.",
-        "title": "Senior Entertainment Engineer",
-        "company": "N/A"
-      }
-    ],
-    "title": "GPGPU Procedural Content Generation",
-    "language": "(English)",
-    "description": "An overview of techniques used to offload the workload of content generation to the GPU using Compute Shaders. While of direct interest to game developers, the talk also touches on more general aspects of interacting with massive parallel architectures, useful in other areas of computing.",
-    "location": {
-      "room": "Room 7",
-      "seats": 20,
-      "floor": -1
+    {
+        "speakers": [
+            {
+                "name": "George Serediuc",
+                "bio": "I’m a multidisciplinary designer striving to create great experiences. My favorite things include unfiltered beer, science fiction novels, cosmology, and hiking. Currently designing positive outcomes at figshare. Follow me: @georgeserediuc",
+                "title": "Digital Designer",
+                "company": "N/A"
+            }
+        ],
+        "title": "About User Experience: How design became the new language of business",
+        "language": "(English)",
+        "description": "As people now expect beautiful, well-designed product experiences, we are witnessing a design-driven revolution around the world. We will find out how human factors considerations are increasingly being incorporated into the product design process. I will also talk about airports in order to better emphasise the power of fierce focus on customer-centric product design. My vision is that our products and experiences should be purposeful and human-centered.",
+        "location": {
+            "room": "Room 7",
+            "seats": 20,
+            "floor": -1
+        },
+        "startTime": "12:00",
+        "endTime": "12:45"
     },
-    "startTime": "12:00",
-    "endTime": "12:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Florin Asavoaie",
-        "bio": "Florin is an IT and computer security enthusiast. He’s got experience with the automated deployment and configuration of medium to large environments dedicated to web applications and web services. He is a fan of Open Source communities and promotes the use of Open Source software in business environments.",
-        "title": "Senior Devops Engineer",
-        "company": "N/A"
-      }
-    ],
-    "title": "Configuration Management NG",
-    "language": "(English)",
-    "description": "An idea on how we could revolutionize configuration management and bring it to the next level, providing real configuration flexibility and unlimited possibilities to scale.",
-    "location": {
-      "room": "Room 8",
-      "seats": 35,
-      "floor": 0
+    {
+        "speakers": [
+            {
+                "name": "Cristian Falcas",
+                "bio": "I'm 36 years old, born in Iasi and working for almost 3 years as a dev-ops engineer at Optymyze/Synygy/ArezzoSky.",
+                "title": "Dev-Ops",
+                "company": "N/A"
+            }
+        ],
+        "title": "Automate your failures. A story about docker and kubernetes.",
+        "language": "Romanian",
+        "description": "What is docker, how it works and how it compares with virtualization techniques. How kubernetes is automating docker containers and how the focus changed from keeping an application up as log as possible, to how to replace a misbehaving application as soon as possible.",
+        "location": {
+            "room": "Room 8",
+            "seats": 35,
+            "floor": 0
+        },
+        "startTime": "12:00",
+        "endTime": "12:45"
     },
-    "startTime": "12:00",
-    "endTime": "12:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Cristian Coțoi",
-        "bio": "Cristian has almost 8 years of experience in testing, and currently working as a Software Developer in Test @Amazon. He has been part of many projects, both small and big, and in this time he learned a lot about quality and testing, tools and principles and the space in-between.",
-        "title": "SDET",
-        "company": "N/A"
-      }
-    ],
-    "title": "Building frameworks over Selenium",
-    "language": "(English)",
-    "description": "Selenium is the leading tool for web automation. But with a custom framework over it, you can really get the most of it. We will take a deep look through the ways we can build a framework over Selenium, best practices and loads of solid examples.",
-    "location": {
-      "room": "Room 9",
-      "seats": 100,
-      "floor": 11
+    {
+        "speakers": [
+            {
+                "name": "Cristian Coțoi",
+                "bio": "Cristian has almost 8 years of experience in testing, and currently working as a Software Developer in Test @Amazon. He has been part of many projects, both small and big, and in this time he learned a lot about quality and testing, tools and principles and the space in-between.",
+                "title": "SDET",
+                "company": "N/A"
+            }
+        ],
+        "title": "Building frameworks over Selenium",
+        "language": "Romanian",
+        "description": "Selenium is the leading tool for web automation. But with a custom framework over it, you can really get the most of it. We will take a deep look through the ways we can build a framework over Selenium, best practices and loads of solid examples.",
+        "location": {
+            "room": "Room 9",
+            "seats": 100,
+            "floor": 11
+        },
+        "startTime": "12:00",
+        "endTime": "12:45"
     },
-    "startTime": "12:00",
-    "endTime": "12:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Ciprian Ouatu",
-        "bio": "Ciprian is specialised in facilitating communication, management and sales programs, and he does this with responsibility, involvement and humour. He always wants to learn new things and is passionate about education, reading, photography and music. He is a part of ASCENDIS, the No. 1 company in developing people and organisations.",
-        "title": "Trainer, Consultant",
-        "company": "Ascendis Consulting"
-      }
-    ],
-    "title": "Team Synergy",
-    "language": "(English)",
-    "description": "In this experiential learning work-shop we will realize that we need to build trust-based relationships, we will understand that ‘winning’ often requires some partners to be prepared to ‘step aside’ or even sacrifice in order to allow another partner to ‘win’. The more competitive a business landscape becomes, the more we need our teams to operate in a trustful way.",
-    "location": {
-      "room": "Room 10",
-      "seats": 50,
-      "floor": 11
+    {
+        "speakers": [
+            {
+                "name": "Florin Cardasim",
+                "bio": "Florin is the Group Head of Development at Endava. Beyond his technical skills, Florin has gained a broad experience as a trainer for companies and speaker in community events. Florin is also co-founder of CodeCamp, one of the largest communities of software developers in Romania.",
+                "title": "Codecamper",
+                "company": "N/A"
+            },
+            {
+                "name": "Raluca Breaur",
+                "bio": "Raluca is an Agile enthusiast with 12 years of experience in software development.",
+                "title": "Delivery Manager",
+                "company": "N/A"
+            }
+        ],
+        "title": "Decide at the Last Responsible Moment!",
+        "language": "(English)",
+        "description": "[Workshop] - Decisions in software architecture & design can be tricky in the complex and agile environments we live. Decide too early or too late and unexpected (sometimes very serious) consequences may arise. Let's explore real options and the Last Responsible Moment!",
+        "location": {
+            "room": "Room 10",
+            "seats": 50,
+            "floor": 11
+        },
+        "startTime": "12:00",
+        "endTime": "12:45"
     },
-    "startTime": "12:00",
-    "endTime": "12:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Arthur Kerpician",
-        "bio": "16 years ago he found his first PHP tutorial and instantly fell in love with the „elephant language”. Since then, he worked with as many web technologies he could lay his hands on. Nowadays, he eats PHP for breakfast, Scrum for lunch and enjoys a relaxing Symfony during dinner.",
-        "title": "Team Manager",
-        "company": "eMAG"
-      }
-    ],
-    "title": "The Blackening",
-    "language": "(English)",
-    "description": "Take part to the most amazing Black Friday experience, behind the scenes, director's cut edition. I'll walk you through eMAG's Black Friday jurney, from 404 and 500 errors to 100% uptime, from 21 servers to over 120. The Blackening movie will start from Black Friday's birthplace during the late 1800's, we'll move to eMAG's first experience with this event, draw the curtain on our past and current infrastructure, disclose some of the amazing technologies we're using and show the order's jurney through kilometers of fiber optics, terabytes of RAM and peta flops of CPU. By the way, you'll also have the chance to ask the ultimate question: are the price errors for real?",
-    "location": {
-      "room": "Room 1",
-      "seats": 100,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Arthur Kerpician",
+                "bio": "16 years ago he found his first PHP tutorial and instantly fell in love with the „elephant language”. Since then, he worked with as many web technologies he could lay his hands on. Nowadays, he eats PHP for breakfast, Scrum for lunch and enjoys a relaxing Symfony during dinner.",
+                "title": "Team Manager",
+                "company": "eMAG"
+            }
+        ],
+        "title": "The Blackening",
+        "language": "Romanian",
+        "description": "Take part to the most amazing Black Friday experience, behind the scenes, director's cut edition. I'll walk you through eMAG's Black Friday jurney, from 404 and 500 errors to 100% uptime, from 21 servers to over 120. The Blackening movie will start from Black Friday's birthplace during the late 1800's, we'll move to eMAG's first experience with this event, draw the curtain on our past and current infrastructure, disclose some of the amazing technologies we're using and show the order's jurney through kilometers of fiber optics, terabytes of RAM and peta flops of CPU. By the way, you'll also have the chance to ask the ultimate question: are the price errors for real?",
+        "location": {
+            "room": "Room 1",
+            "seats": 100,
+            "floor": -2
+        },
+        "startTime": "13:00",
+        "endTime": "13:45"
     },
-    "startTime": "13:00",
-    "endTime": "13:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Todd Kulick",
-        "bio": "Software engineer with fifteen years of experience in building and shipping small, medium, and large scale software products. Detailed experience in embedded DVR/video applications, computer graphics, user interface development, and client-server applications. Prior experience includes design, development, implementation and ongoing support of large scale application deployment working in a large software organization.",
-        "title": "VP of Technology, TiVo",
-        "company": "Ness"
-      }
-    ],
-    "title": "Haxe - A solution for the big UI rewrite",
-    "language": "(English)",
-    "description": "I'll discuss the basics of what Haxe is, what makes it interesting for software development and why and how we use it at TiVo to make better products faster.",
-    "location": {
-      "room": "Room 2",
-      "seats": 250,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Todd Kulick",
+                "bio": "Software engineer with fifteen years of experience in building and shipping small, medium, and large scale software products. Detailed experience in embedded DVR/video applications, computer graphics, user interface development, and client-server applications. Prior experience includes design, development, implementation and ongoing support of large scale application deployment working in a large software organization.",
+                "title": "VP of Technology, TiVo",
+                "company": "Ness"
+            }
+        ],
+        "title": "Haxe - A solution for the big UI rewrite",
+        "language": "(English)",
+        "description": "I'll discuss the basics of what Haxe is, what makes it interesting for software development and why and how we use it at TiVo to make better products faster.",
+        "location": {
+            "room": "Room 2",
+            "seats": 250,
+            "floor": -2
+        },
+        "startTime": "13:00",
+        "endTime": "13:45"
     },
-    "startTime": "13:00",
-    "endTime": "13:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Bogdan Litescu",
-        "bio": "Bogdan Litescu is a software developer and business geek, balancing strategy and execution in product development for over 12 years. His skill set is at the intersection of business, customer and technical worlds. For DNN Sharp which he’s running, this translates into high tech software products that provide brilliantly simple solutions to real problems and unparalleled support. There's no surprise that the company is at the top of the DNN ecosystem. Inside the community, Bogdan is seen as the quiet guy with a vision to transform DNN into a next generation platform.",
-        "title": "Owner",
-        "company": "DNN Sharp"
-      }
-    ],
-    "title": "Developer Guide to Founding a Startup",
-    "language": "(English)",
-    "description": "If you feel your potential as a software developer could be wasted then the right thing to do is to leave the comfort zone and start your own gig. I’ll share with you the lessons I learnt in my 10 year journey of being a developer and running a business in Romania. Learn about choosing an idea, establishing a legal entity, choosing technologies and tools, adopting the lean startup mindset, bootstrapping or attracting investments and more.",
-    "location": {
-      "room": "Room 3",
-      "seats": 100,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Ovidiu Avasilcai",
+                "bio": "Technical Project Manager with a background in IT services. Over the years I've had the pleasure of working in many areas of IT service industry, from customer/tech support, devops, dba, project coordination and development.",
+                "title": "Technical Project Manager",
+                "company": "SCC"
+            }
+        ],
+        "title": "Flux(Redux) architecture & ReactJS ecosystem",
+        "language": "(English)",
+        "description": "Introductory presentation on FLUX and the React ecosystem. How Flux came to be and why you might prefer it over MVC/MVVM. Demo application using ReactJS & Redux (FLUX library) ",
+        "location": {
+            "room": "Room 3",
+            "seats": 100,
+            "floor": -2
+        },
+        "startTime": "13:00",
+        "endTime": "13:45"
     },
-    "startTime": "13:00",
-    "endTime": "13:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Ancuta Damian",
-        "bio": "I'm an IT enthusiast interested in Agile methodologies and understanding how improving human interactions in a team can lead to better results.",
-        "title": "Project manager",
-        "company": "N/A"
-      }
-    ],
-    "title": "How to grow happy teams",
-    "language": "(English)",
-    "description": "We've all worked, at one point or another, as part of a team. Sometimes the experience was pleasant and some other times not. Let's explore how much can one person influence, why some teams never glue together and what are the key attributes of genuinely happy teams.",
-    "location": {
-      "room": "Room 4",
-      "seats": 20,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Mihai Bura",
+                "bio": "Being an eager learner and tech savvy, Mihai is helping Yonder deliver the best front end experience for their customers. He enjoys challenging mentees to learn and discover new ways of building the web.",
+                "title": "Web Developer",
+                "company": "N/A"
+            }
+        ],
+        "title": "Ionic - A framework for mobile development",
+        "language": "Romanian",
+        "description": "Mobile development done right needs to cover at least a number of areas. Prototyping - Use customizable block-like components Development - Write the backbone of your application using AngularJS and ngCordova Build and Emulate - A strong CLI will help you build your app using Gulp and then emulate it either in the browser, emulator, or on your very own device Deploy - One-click-deploy to your device? Yup, that's possible Analytics - Learn about the people using your app with less effort Ionic comes to help and puts in our hands a beautiful framework that keeps us focused at what we should be doing: develop amazing apps.",
+        "location": {
+            "room": "Room 4",
+            "seats": 20,
+            "floor": -2
+        },
+        "startTime": "13:00",
+        "endTime": "13:45"
     },
-    "startTime": "13:00",
-    "endTime": "13:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Antonio Caciuc",
-        "bio": "Just a guy, working towards a future when the things that make us weak and strange get engineered away.",
-        "title": "HackerSpace Pilot",
-        "company": "N/A"
-      }
-    ],
-    "title": "Creative Programming",
-    "language": "(English)",
-    "description": "Make art with computer programming",
-    "location": {
-      "room": "Room 5",
-      "seats": 30,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Mircea Pricop",
+                "bio": "I joined Google fresh off the benches of the University of Hamburg, where I transferred to after starting my CS education right here in Iasi. Having been at Google for three years now, I'm currently focusing on information extraction, aggregation and data understanding as part of developing exciting new search features.",
+                "title": "Software Engineer",
+                "company": "Google"
+            }
+        ],
+        "title": "Use your data to understand the world: extracting meaning out of free form text and beyond.",
+        "language": "(English)",
+        "description": "Word embeddings are one of the most exciting topics in machine learning today, and thanks to recent developments it's never been easier to harness their power. Starting from a simple problem, we'll have a look at how and why they work, see them in action on the Google cloud, then peek at how these concepts can be help you with your own challenges.",
+        "location": {
+            "room": "Room 5",
+            "seats": 30,
+            "floor": -2
+        },
+        "startTime": "13:00",
+        "endTime": "13:45"
     },
-    "startTime": "13:00",
-    "endTime": "13:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "George Raut",
-        "bio": "https://ro.linkedin.com/in/georgeraut",
-        "title": "Analytics Specialists Leader",
-        "company": "N/A"
-      },
-      {
-        "name": "Bogdan Suchar",
-        "bio": "https://ro.linkedin.com/in/georgeraut",
-        "title": "Account Manager",
-        "company": "N/A"
-      },
-      {
-        "name": "Oana Scutarasu",
-        "bio": "https://ro.linkedin.com/in/georgeraut",
-        "title": "Marketing Automation Team Leader",
-        "company": "N/A"
-      }
-    ],
-    "title": "Marketing Automation Distillery",
-    "language": "(English)",
-    "description": "As a fine distillery transforms raw fruits into a premium blend, this is how Marketing Automation converts simple web visitors into loyal customers. Our analogy should make it easier to understand the journey through the backstage of the automated and entertaining part of Marketing. You will witness the behavior of a potential customer as he becomes a business opportunity.",
-    "location": {
-      "room": "Room 6",
-      "seats": 20,
-      "floor": -1
+    {
+        "speakers": [
+            {
+                "name": "Adrian-Tudor Panescu",
+                "bio": "Computer Science graduate and Web enthusiast. From small Berlin startups to large institutions like CERN, I've always pushed my limits in order to deliver innovative Web products.",
+                "title": "Web Enthusiast",
+                "company": "N/A"
+            }
+        ],
+        "title": "ECMAScript 6 Tips & Traps",
+        "language": "(English)",
+        "description": "JavaScript has always been a language with quite a few dark corners and gotchas, which, if ignored, could lead to unexpected behaviours and bugs. While the new ECMAScript standard has helped clear some of these issues, it has also brought up some new ones like the Temporal Dead Zone, handling exceptions in Promises, or the behaviour of constants. This interactive presentation will go through a number of ECMAScript 6 quirks, in an attempt to clear them up.",
+        "location": {
+            "room": "Room 6",
+            "seats": 20,
+            "floor": -1
+        },
+        "startTime": "13:00",
+        "endTime": "13:45"
     },
-    "startTime": "13:00",
-    "endTime": "13:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Daniel Leon",
-        "bio": "I'm a Linux enthusiast and a proactive learner. I like finding the best solutions and putting them into practice.",
-        "title": "Senior Software Developer",
-        "company": "N/A"
-      }
-    ],
-    "title": "Spark: The beginnings",
-    "language": "(English)",
-    "description": "Are you a Java developer interested in big data processing and never had the chance to work with Apache Spark ? My presentation aims to help you get familiar with Spark concepts and start developing your own distributed processing application.",
-    "location": {
-      "room": "Room 7",
-      "seats": 20,
-      "floor": -1
+    {
+        "speakers": [
+            {
+                "name": "Ionut Grecu",
+                "bio": "Ionut Grecu has been involved in IT for the last 6+ years. His work exists at the intersection of Agile Transformation, Lean Thinking, Psychology and Digital Marketing. Weird, right? He is a believer in servant leadership and the power that Agile and Lean thinking and techniques can bring to an organization. Being a bookish sort who always loves a mental challenge, he would be bored if he wasn’t constantly learning. Yet he has the ability to focus and research deeply in a narrow field of specialization. Life's big questions interest him most. DNN Sharp is his oyster and when he is out of the office you can find him eating shawarma, sitting at a table near you. He has a self-proclaimed PhD in napping in any position you can think of.",
+                "title": "Scrum Master",
+                "company": "N/A"
+            }
+        ],
+        "title": "Emotional Intelligence - A Success Mantra for Agile Teams",
+        "language": "Romanian",
+        "description": "You’re a developer, a tester, or a business analyst, a person with feelings, ideas, and values just like everyone else. And while you know that you are fully qualified and prepared for this position, nobody told you that working on an Agile team requires a shift in your mindset, nobody warned you about the emotional side of being in charge. There is no preparing for finding emotional serenity or being emotionally intelligent when you work in an Agile team. There is no certificate to earn, no pill to take to make the rough feelings that slow you down, hold you back, making you less productive go away. You’re on your own. It is never easy. And how you react to your emotions will have profound consequences for your team. I invite you to join me in a journey of self-exploration and discovery to learn some practical ways to look at your own behavior within the context of the team and gain self-understanding and insight into your behavior and how this behavior affect your team members. ",
+        "location": {
+            "room": "Room 7",
+            "seats": 20,
+            "floor": -1
+        },
+        "startTime": "13:00",
+        "endTime": "13:45"
     },
-    "startTime": "13:00",
-    "endTime": "13:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Cosmin Ilie",
-        "bio": "I lead the Cloud Services Group in Iasi for Optymyze. Our job is to operate the company's SaaS platform for a large group of clients in different data centers and geographic locations.",
-        "title": "Cloud Services Manager",
-        "company": "N/A"
-      }
-    ],
-    "title": "How to \"Go\"",
-    "language": "(English)",
-    "description": "This talk will provide a short introduction to the Go Programing language developed by Google and share some of the lessons learned at Optymyze during one year of developing tools in go. Hopefully by the end of this talk you should learn why we choose Go, why we’ve rewritten a large part of our own internal tools in go and why should you invest time in learning go.",
-    "location": {
-      "room": "Room 8",
-      "seats": 35,
-      "floor": 0
+    {
+        "speakers": [
+            {
+                "name": "Florin Asavoaie",
+                "bio": "Florin is an IT and computer security enthusiast. He’s got experience with the automated deployment and configuration of medium to large environments dedicated to web applications and web services. He is a fan of Open Source communities and promotes the use of Open Source software in business environments.",
+                "title": "Senior Devops Engineer",
+                "company": "N/A"
+            }
+        ],
+        "title": "Configuration Management NG",
+        "language": "(English)",
+        "description": "An idea on how we could revolutionize configuration management and bring it to the next level, providing real configuration flexibility and unlimited possibilities to scale.",
+        "location": {
+            "room": "Room 8",
+            "seats": 35,
+            "floor": 0
+        },
+        "startTime": "13:00",
+        "endTime": "13:45"
     },
-    "startTime": "13:00",
-    "endTime": "13:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Ioana Serediuc",
-        "bio": "• 9 years’ experience in testing field",
-        "title": "Test Lead",
-        "company": "N/A"
-      }
-    ],
-    "title": "How real are your test leadership abilities?",
-    "language": "(English)",
-    "description": "This presentation touches upon subjects like: what are the most important skills and areas of expertise for a test lead and how technical a test lead role should be.",
-    "location": {
-      "room": "Room 9",
-      "seats": 100,
-      "floor": 11
+    {
+        "speakers": [
+            {
+                "name": "Ioana Serediuc",
+                "bio": "•\t9 years’ experience in testing field",
+                "title": "Test Lead",
+                "company": "N/A"
+            }
+        ],
+        "title": "How real are your test leadership abilities?",
+        "language": "Romanian",
+        "description": "This presentation touches upon subjects like: what are the most important skills and areas of expertise for a test lead and how technical a test lead role should be.",
+        "location": {
+            "room": "Room 9",
+            "seats": 100,
+            "floor": 11
+        },
+        "startTime": "13:00",
+        "endTime": "13:45"
     },
-    "startTime": "13:00",
-    "endTime": "13:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Nechita Radu",
-        "bio": "Radu Marian Nechita - training partner",
-        "title": "Training partner Mentor Training",
-        "company": "N/A"
-      }
-    ],
-    "title": "The coaching role on employee retention and individual performance",
-    "language": "(English)",
-    "description": "Radu will demonstrate how to use the Coaching in seven steps method to access employee qualities and enhance them for performance. It will be not only a presentations but managers from audience will exercise practically the method and they will be able to use it next day with their employees. The manager do not have to like or dislike people, nor to change them, but to find and enhance their qualities for individual performance and as a team. You can not be a performer if your team do not perform.",
-    "location": {
-      "room": "Room 10",
-      "seats": 50,
-      "floor": 11
+    {
+        "speakers": [
+            {
+                "name": "Adrian Rindasu",
+                "bio": "Adrian co founded Edurom in 2002. Since then, he developed and delivered training and consultancy programs for various companies in the software development industry. He is running Belbin & Situational Leadership trainings for the IT&C clients of Edurom.",
+                "title": "Managing Partner",
+                "company": "EDUROM"
+            }
+        ],
+        "title": "Thinking Strategically",
+        "language": "Romanian",
+        "description": "This presentation challenges leaders to broaden their perspectives, and question conventional wisdom. Participants will be able to: - Describe what strategic thinking is and how it differs from strategic planning and execution - Recognize and demonstrate the characteristics and behaviors of strategic thinkers - Identify and overcome the barriers that impede strategic thinking",
+        "location": {
+            "room": "Room 10",
+            "seats": 50,
+            "floor": 11
+        },
+        "startTime": "13:00",
+        "endTime": "13:45"
     },
-    "startTime": "13:00",
-    "endTime": "13:45"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Ovidiu Simionica",
-        "bio": "Passionate about code quality practices, Object Oriented Design, TDD and 'Uncle Bob\"",
-        "title": "Technical Project Manager",
-        "company": "Fortech"
-      }
-    ],
-    "title": "Living the end times",
-    "language": "(English)",
-    "description": "It is the about the imminent change of mentality that our local IT industry must make. It is metaphorically referring to the end times of the \"coder as a resource\" age. The transition has begun quite a while ago with large adoption of Agile Manifesto. 14 years later after the print and time is up for the \"typical\" outsourcing developer. The economical turmoil will not be forgiving with those companies that are not truly people oriented and with those of us that are not professional. It is the new time of Software Craftsmanship.",
-    "location": {
-      "room": "Room 1",
-      "seats": 100,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Ovidiu Simionica",
+                "bio": "Passionate about code quality practices, Object Oriented Design, TDD and 'Uncle Bob\"",
+                "title": "Technical Project Manager",
+                "company": "Fortech"
+            }
+        ],
+        "title": "Living the end times",
+        "language": "(English)",
+        "description": "It is the about the imminent change of mentality that our local IT industry must make. It is metaphorically referring to the end times of the \"coder as a resource\" age. The transition has begun quite a while ago with large adoption of Agile Manifesto. 14 years later after the print and time is up for the \"typical\" outsourcing developer. The economical turmoil will not be forgiving with those companies that are not truly people oriented and with those of us that are not professional. It is the new time of Software Craftsmanship.",
+        "location": {
+            "room": "Room 1",
+            "seats": 100,
+            "floor": -2
+        },
+        "startTime": "15:30",
+        "endTime": "16:15"
     },
-    "startTime": "15:30",
-    "endTime": "16:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Steven Arnauts",
-        "bio": "Steven has more than 17 years of experience in IT. During his professional career, he has worked for multiple Belgian customers in the financial, utilities, public, healthcare and other sectors.",
-        "title": "Software Architect",
-        "company": "Expert Network"
-      },
-      {
-        "name": "Ralf Geenen",
-        "bio": "Ralf has more than 17 years of experience in IT. During his professional career, he has worked for multiple Belgian customers in the financial, utilities, public, healthcare and other sectors.",
-        "title": "Software Architect",
-        "company": "Expert Network"
-      }
-    ],
-    "title": "REST, Event-Driven Architecture and Micro-Services",
-    "language": "(English)",
-    "description": "Today, REST is probably the most popular communication style for Web APIs, but there are other styles to consider when designing a scalable, flexible, and maintainable software system. We will share a number of best practices on using REST, event-driven architecture and micro-services.",
-    "location": {
-      "room": "Room 2",
-      "seats": 250,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Steven Arnauts",
+                "bio": "Software architect, designer and developer. I’ve been working as a consultant for ISV’s designing SAAS applications for the last couple of years, with a primary technological focus on the .NET platform.",
+                "title": "Software Architect",
+                "company": "Expert Network"
+            },
+            {
+                "name": "Ralf Geenen",
+                "bio": "Ralf has more than 17 years of experience in IT. During his professional career, he has worked as a software architect for multiple Belgian customers in the financial, utilities, public, healthcare and other sectors. He focuses on software design and methodology.",
+                "title": "Software Architect",
+                "company": "Expert Network"
+            }
+        ],
+        "title": "REST, Event-Driven Architecture and Micro-Services",
+        "language": "(English)",
+        "description": "Today, REST is probably the most popular communication style for Web APIs, but there are other styles to consider when designing a scalable, flexible, and maintainable software system. We will share a number of best practices on using REST, event-driven architecture and micro-services.",
+        "location": {
+            "room": "Room 2",
+            "seats": 250,
+            "floor": -2
+        },
+        "startTime": "15:30",
+        "endTime": "16:15"
     },
-    "startTime": "15:30",
-    "endTime": "16:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Ovidiu Avasilcai",
-        "bio": "Technical Project Manager with a background in IT services. Over the years I've had the pleasure of working in many areas of IT service industry, from customer/tech support, devops, dba, project coordination and development.",
-        "title": "Technical Project Manager",
-        "company": "SCC"
-      }
-    ],
-    "title": "Flux(Redux) architecture & ReactJS ecosystem",
-    "language": "(English)",
-    "description": "Introductory presentation on FLUX and the React ecosystem. How Flux came to be and why you might prefer it over MVC/MVVM. Demo application using ReactJS & Redux (FLUX library)",
-    "location": {
-      "room": "Room 3",
-      "seats": 100,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Vlad Zelinschi (Reign)",
+                "bio": "Vlad (close friends call him Reign :D) is a Frontend Engineer with a strong passion for the latest technologies out there and an unhealthy obsession for clean and simple code. He loves to try out things as soon as they hit the market so he always keeps an eye out for the JS, CSS and HTML everchanging landscapes. He happily embraces any challenge, though he’ll prefer the ones related to Angular, React, FRP, Node, MongoDB and frontend performance. He is currently employed at Appsbroker where he leads the frontend team and drives innovation forward.",
+                "title": "UI Tech Lead",
+                "company": "N/A"
+            }
+        ],
+        "title": "Client-side reactive programming with RxJS",
+        "language": "(English)",
+        "description": "Imperative programming. We're all used to that. Probably doing it since...forever. But it's not the only way we can reason about our applications. In this presentation we will embark on a journey through the land of reactive programming. What it is and why is it useful. What are the advantages as well as the perks of using it, and when should we consider taking this approach. All this while live coding a GitHub suggestion box using RxJS (probably the most well-known client-side JS reactive programming framework). Hope to see you there!",
+        "location": {
+            "room": "Room 3",
+            "seats": 100,
+            "floor": -2
+        },
+        "startTime": "15:30",
+        "endTime": "16:15"
     },
-    "startTime": "15:30",
-    "endTime": "16:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Robert Tamas",
-        "bio": "IT professionals with a keen interest in software full delivery life-cycle aimed at offering best value given the right contextual approach, practices and methodologies.",
-        "title": "Develpment Lead",
-        "company": "N/A"
-      },
-      {
-        "name": "Dragos Tudorache",
-        "bio": "IT professionals with a keen interest in software full delivery life-cycle aimed at offering best value given the right contextual approach, practices and methodologies.",
-        "title": "Develpment Lead",
-        "company": "N/A"
-      }
-    ],
-    "title": "All you need to know about mutation testing",
-    "language": "Romanian",
-    "description": "Be our guest for a session on the interesting concept of Mutation Testing. Let’s explore together: What is Mutation testing? How can we easily adopt it in our projects? What is the added value? Target Audience: Our session is aimed at developers but any other “flavor” is welcome. We are looking forward to meet you there, Dragos & Robert",
-    "location": {
-      "room": "Room 4",
-      "seats": 20,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Alex Mang",
+                "bio": "Alex Mang is a regular speaker at community driven events focusing mostly on cloud-computing topics, thus aiming to help developers better understand the implications of cloud-computing as a whole. As an Azure Advisor, he regularly offers Azure teams in Redmond feedback on upcoming Azure features and services and gets to test them out in early development stages.",
+                "title": "CEO",
+                "company": "N/A"
+            }
+        ],
+        "title": "Know Your Customers, Know Your Apps",
+        "language": "(English)",
+        "description": "Whether you have to prioritize user stories on your backlog, learn what the best ways to monetize your applications are or simply want to find what the errors your customers are referring to, monitoring your applications is key if you want to be successful in the ISV industry. And yet too many applications, once deployed, remain unmonitored and thus, their developers tend to behave passive when it comes to supporting their customers. Ever heard a developer say ‘I don’t know why it doesn’t work for you. It works perfectly fine on my PC.’? During this session I’ll walk you through the best practices of both implementing and using Azure Application Insights so that you will be two steps ahead of your customer and eventually get to be pro-active when it comes to supporting applications deployed in the wild.",
+        "location": {
+            "room": "Room 4",
+            "seats": 20,
+            "floor": -2
+        },
+        "startTime": "15:30",
+        "endTime": "16:15"
     },
-    "startTime": "15:30",
-    "endTime": "16:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Alex Mang",
-        "bio": "Alex Mang is a regular speaker at community driven events focusing mostly on cloud-computing topics, thus aiming to help developers better understand the implications of cloud-computing as a whole. As an Azure Advisor, he regularly offers Azure teams in Redmond feedback on upcoming Azure features and services and gets to test them out in early development stages.",
-        "title": "CEO",
-        "company": "N/A"
-      }
-    ],
-    "title": "Patterns for SQL Database Elasticity",
-    "language": "Romanian",
-    "description": "With the announcement made in April regarding the new SQL Database tiers - Basic, Standard and Performance - , one of the huge drawbacks, namely predictability, has been solved. However, one question still remains: how do we scale our databases up and down and how do we get the elasticity Azure is all about? During this session, we will cover custom sharding techniques and focus especially on how to elastically scale our data (both up and out), how to split and afterwards merge data from different shards, how to propagate DDLs, how to reference data from different shards and finally and finally, how to provision the databases",
-    "location": {
-      "room": "Room 5",
-      "seats": 30,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Ancuta Damian",
+                "bio": "I'm an IT enthusiast interested in Agile methodologies and understanding how improving human interactions in a team can lead to better results.",
+                "title": "Project manager",
+                "company": "N/A"
+            }
+        ],
+        "title": "How to grow happy teams",
+        "language": "Romanian",
+        "description": "We've all worked, at one point or another, as part of a team. Sometimes the experience was pleasant and some other times not. Let's explore how much can one person influence, why some teams never glue together and what are the key attributes of genuinely happy teams. ",
+        "location": {
+            "room": "Room 5",
+            "seats": 30,
+            "floor": -2
+        },
+        "startTime": "15:30",
+        "endTime": "16:15"
     },
-    "startTime": "15:30",
-    "endTime": "16:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Ionut Grecu",
-        "bio": "Ionut Grecu has been involved in IT for the last 6+ years. His work exists at the intersection of Agile Transformation, Lean Thinking, Psychology and Digital Marketing. Weird, right? He is a believer in servant leadership and the power that Agile and Lean thinking and techniques can bring to an organization. Being a bookish sort who always loves a mental challenge, he would be bored if he wasn’t constantly learning. Yet he has the ability to focus and research deeply in a narrow field of specialization. Life's big questions interest him most. DNN Sharp is his oyster and when he is out of the office you can find him eating shawarma, sitting at a table near you. He has a self-proclaimed PhD in napping in any position you can think of.",
-        "title": "Scrum Master",
-        "company": "N/A"
-      }
-    ],
-    "title": "Emotional Intelligence - A Success Mantra for Agile Teams",
-    "language": "Romanian",
-    "description": "You’re a developer, a tester, or a business analyst, a person with feelings, ideas, and values just like everyone else. And while you know that you are fully qualified and prepared for this position, nobody told you that working on an Agile team requires a shift in your mindset, nobody warned you about the emotional side of being in charge. There is no preparing for finding emotional serenity or being emotionally intelligent when you work in an Agile team. There is no certificate to earn, no pill to take to make the rough feelings that slow you down, hold you back, making you less productive go away. You’re on your own. It is never easy. And how you react to your emotions will have profound consequences for your team. I invite you to join me in a journey of self-exploration and discovery to learn some practical ways to look at your own behavior within the context of the team and gain self-understanding and insight into your behavior and how this behavior affect your team members.",
-    "location": {
-      "room": "Room 6",
-      "seats": 20,
-      "floor": -1
+    {
+        "speakers": [
+            {
+                "name": "Radu Danciu",
+                "bio": "With over 7 years of experience in game development having shipped a couple of triple-A titles my goal is to provide memorable experiences to people who enjoy games.",
+                "title": "Senior Entertainment Engineer",
+                "company": "N/A"
+            }
+        ],
+        "title": "GPGPU Procedural Content Generation",
+        "language": "(English)",
+        "description": "An overview of techniques used to offload the workload of content generation to the GPU using Compute Shaders. While of direct interest to game developers, the talk also touches on more general aspects of interacting with massive parallel architectures, useful in other areas of computing.",
+        "location": {
+            "room": "Room 6",
+            "seats": 20,
+            "floor": -1
+        },
+        "startTime": "15:30",
+        "endTime": "16:15"
     },
-    "startTime": "15:30",
-    "endTime": "16:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Dirla Vasile",
-        "bio": "Senior Java Developer with more than 10 years experience in web application development.",
-        "title": "Activiti Core Developer",
-        "company": "NESS"
-      }
-    ],
-    "title": "Activiti - The workflow engine of your application",
-    "language": "Romanian",
-    "description": "This is intended to be an introductory presentation for java developers interested in workflow execution engines. We'll start with some basic information about BPMN concepts and then we'll continue with modelling an simple process in Activiti. Later the developers will see how Activiti could be used as a workflow engine for their applications.",
-    "location": {
-      "room": "Room 7",
-      "seats": 20,
-      "floor": -1
+    {
+        "speakers": [
+            {
+                "name": "Andrei Pruteanu",
+                "bio": "I am information processing specialist at Uber Research. My work focuses on performing complex data analysis on large research publication data-sets.",
+                "title": "Software engineer",
+                "company": "N/A"
+            }
+        ],
+        "title": "Lessons learned in starting and closing an IT company in Holland",
+        "language": "(English)",
+        "description": "The presentation is a lessons-learned session about starting and closing(failing) an IT company in Holland. It will be an interactive discussion about do's and don't's that I learned during such a process. Practical examples will be shown about technology, marketing and financing. ",
+        "location": {
+            "room": "Room 7",
+            "seats": 20,
+            "floor": -1
+        },
+        "startTime": "15:30",
+        "endTime": "16:15"
     },
-    "startTime": "15:30",
-    "endTime": "16:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Ciprian Redinciuc",
-        "bio": "I'm a passionate iOS developer with a taste for fine crafted mobile apps.",
-        "title": "iOS Developer",
-        "company": "N/A"
-      }
-    ],
-    "title": "Continuos Delivery for iOS Projects",
-    "language": "Romanian",
-    "description": "Learn how to connect all you deployment tools into one streamlined workflow and start saving development hours by using fastlane. Whether you are testing your latest commit, making a build for your beta testers or even delivering to the AppStore, fastlane has all the right moves for you.",
-    "location": {
-      "room": "Room 8",
-      "seats": 35,
-      "floor": 0
+    {
+        "speakers": [
+            {
+                "name": "Cosmin Ilie",
+                "bio": "I lead the Cloud Services Group in Iasi for Optymyze. Our job is to operate the company's SaaS platform for a large group of clients in different data centers and geographic locations.",
+                "title": "Cloud Services Manager",
+                "company": "N/A"
+            }
+        ],
+        "title": "How to \"Go\"",
+        "language": "(English)",
+        "description": "This talk will provide a short introduction to the Go Programing language developed by Google and share some of the lessons learned at Optymyze during one year of developing tools in go. Hopefully by the end of this talk you should learn why we choose Go, why we’ve rewritten a large part of our own internal tools in go and why should you invest time in learning go. ",
+        "location": {
+            "room": "Room 8",
+            "seats": 35,
+            "floor": 0
+        },
+        "startTime": "15:30",
+        "endTime": "16:15"
     },
-    "startTime": "15:30",
-    "endTime": "16:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Diana Lefter",
-        "bio": "IT Manager born and raised in Iasi, with 18 years of experience in US and Canada, where she effectively implemented various offshore/onshore resource staffing models (India). An advocate for retaining IT talent in Romania, where she wants to apply her management and leadership knowledge. She is relocating back to Romania, with the strong belief that our country is becoming an outsourcing destination for corporations all over the world. Come and hear her emigration and repatriation story.",
-        "title": "IT Manager",
-        "company": "N/A"
-      }
-    ],
-    "title": "Bring IT back home",
-    "language": "Romanian",
-    "description": "IT Manager born and raised in Iasi, with 18 years of experience in US and Canada, where she effectively implemented various offshore/onshore resource staffing models (India). An advocate for retaining IT talent in Romania, where she wants to apply her management and leadership knowledge. She is relocating back to Romania, with the strong belief that our country is becoming an outsourcing destination for corporations all over the world. Come and hear her emigration and repatriation story.",
-    "location": {
-      "room": "Room 9",
-      "seats": 100,
-      "floor": 11
+    {
+        "speakers": [
+            {
+                "name": "Diana Lefter",
+                "bio": "IT Manager born and raised in Iasi, with 18 years of experience in US and Canada, where she effectively implemented various offshore/onshore resource staffing models (India). An advocate for retaining IT talent in Romania, where she wants to apply her management and leadership knowledge. She is relocating back to Romania, with the strong belief that our country is becoming an outsourcing destination for corporations all over the world. Come and hear her emigration and repatriation story.",
+                "title": "IT Manager",
+                "company": "N/A"
+            },
+            {
+                "name": "Alex Morarasu",
+                "bio": "Welcome the challenge of solving problems. With 10+ years of experience on different QA roles I look forward for new opportunities and challenges. Highly competitive, very ambitious, highly motivated, self-starter who is organized, disciplined, goal – oriented, willing to work hard to reach my objectives. I am a team person, very sociable and communicative. Excellent communication skills demonstrated by ability to work with people of diverse backgrounds. Listen to determine needs of customers before offering a solution. Quickly establish rapport with clients.",
+                "title": "Quality Manager",
+                "company": "N/A"
+            }
+        ],
+        "title": "[1 - Bring IT back home] [2- From zero to hero with Quality Assurance]",
+        "language": "(English)",
+        "description": "[1 - IT Manager born and raised in Iasi, with 18 years of experience in US and Canada, where she effectively implemented various offshore/onshore resource staffing models (India). An advocate for retaining IT talent in Romania, where she wants to apply her management and leadership knowledge. She is relocating back to Romania, with the strong belief that our country is becoming an outsourcing destination for corporations all over the world. Come and hear her emigration and repatriation story.] [2 - How often did you hear someone saying \"QA is cool\"? How often have you been encouraged to continue as a QA engineer? With this presentation I'm trying to give some answers to the above questions (and more) by using my 10+ years of QA experience and real life examples.]",
+        "location": {
+            "room": "Room 9",
+            "seats": 100,
+            "floor": 11
+        },
+        "startTime": "15:30",
+        "endTime": "16:15"
     },
-    "startTime": "15:30",
-    "endTime": "16:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Andrei Postolache",
-        "bio": "I’m a co-founder and trainer at Introspecials with a focus on modern organizations, leadership, agility, lean, learning, culture and communication.",
-        "title": "Trainer",
-        "company": "N/A"
-      }
-    ],
-    "title": "Lucruri de care mi-e frică, și cele de care nu",
-    "language": "Romanian",
-    "description": "Dăm la o parte “cultura organizațională”, “motivarea”, “engagement-ul”, “spiritul de echipă”, “leadership-ul” și altele ca ele, și ne uităm direct în ochii monstrului: ce vedem? O discuție despre părțile dureroase ale învățării, despre ceea ce ne schimbă cu adevărat, și despre cum trecem prin transformările care contează. Când învățarea încetează să mai fie jucărie și devine identitate. Când intrăm în acel joc în care avem multe de pierdut. Cum o facem? De ce lucruri are rost să ne temem, și de care nu?",
-    "location": {
-      "room": "Room 10",
-      "seats": 50,
-      "floor": 11
+    {
+        "speakers": [
+            {
+                "name": "Ciprian Ouatu",
+                "bio": "Ciprian is specialised in facilitating communication, management and sales programs, and he does this with responsibility, involvement and humour. He always wants to learn new things and is passionate about education, reading, photography and music. He is a part of ASCENDIS, the No. 1 company in developing people and organisations.",
+                "title": "Trainer, Consultant",
+                "company": "Ascendis Consulting"
+            }
+        ],
+        "title": "Team Synergy",
+        "language": "Romanian",
+        "description": " In this experiential learning work-shop we will realize that we need to build trust-based relationships, we will understand that ‘winning’ often requires some partners to be prepared to ‘step aside’ or even sacrifice in order to allow another partner to ‘win’. The more competitive a business landscape becomes, the more we need our teams to operate in a trustful way.",
+        "location": {
+            "room": "Room 10",
+            "seats": 50,
+            "floor": 11
+        },
+        "startTime": "15:30",
+        "endTime": "16:15"
     },
-    "startTime": "15:30",
-    "endTime": "16:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Sorin Peste",
-        "bio": "Sorin has been a part of the Enterprise Services unit within Microsoft Romania since 2011, and has been busy developing software on the Microsoft technology stack since 2001. Recently he has taken on the Technical Evangelist role and will engage more actively with developers and IT Professionals, showcasing the newest Microsoft solutions and technology.",
-        "title": "Technical Evangelist, Microsoft Romania",
-        "company": "Microsoft"
-      }
-    ],
-    "title": "Building a real time analytic dashboard using Azure Event Hubs, Stream Analytics, Machine Learning, and PowerBI",
-    "language": "Romanian",
-    "description": "Come see a demo of a real time analysis of data at motion, using a host of Azure-based technologies. Find out how you can easily build a pipeline to ingest, transform, predict and present data and trends, using stuff that’s already in Azure today. Learn how you can get from idea to working prototype in a very short time.",
-    "location": {
-      "room": "Room 1",
-      "seats": 100,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Robert Tamas",
+                "bio": "IT professionals with a keen interest in software full delivery life-cycle aimed at offering best value given the right contextual approach, practices and methodologies.",
+                "title": "Develpment Lead",
+                "company": "N/A"
+            },
+            {
+                "name": "Dragos Tudorache",
+                "bio": "IT professionals with a keen interest in software full delivery life-cycle aimed at offering best value given the right contextual approach, practices and methodologies.",
+                "title": "Develpment Lead",
+                "company": "N/A"
+            }
+        ],
+        "title": "All you need to know about mutation testing",
+        "language": "Romanian",
+        "description": "Be our guest for a session on the interesting concept of Mutation Testing. Let’s explore together: What is Mutation testing? How can we easily adopt it in our projects? What is the added value? Target Audience: Our session is aimed at developers but any other “flavor” is welcome. We are looking forward to meet you there, Dragos & Robert ",
+        "location": {
+            "room": "Room 1",
+            "seats": 100,
+            "floor": -2
+        },
+        "startTime": "16:30",
+        "endTime": "17:15"
     },
-    "startTime": "16:30",
-    "endTime": "17:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Jozua Velle",
-        "bio": "Jozua Velle",
-        "title": "Unit Manager Storeworld",
-        "company": "N/A"
-      },
-      {
-        "name": "Dan Vulpe",
-        "bio": "Proud father of two and passionate software engineer with a strong focus on code quality and low technical debt.",
-        "title": "Software Engineer",
-        "company": "N/A"
-      }
-    ],
-    "title": "Continuous Delivery (TBD)",
-    "language": "Romanian",
-    "description": "TBD",
-    "location": {
-      "room": "Room 2",
-      "seats": 250,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Luigi Lauro",
+                "bio": "Enterprise Architect and Senior Software Analyst and Developer with wide experiences in services, application and web development (Java, Scala, .NET, C/C++, most scripting languages), databases, networks, operating systems (FreeBSD, Mac OS X, Linux, Windows), hardware and software security (parallel computing and cryptology are some of his main interests).",
+                "title": "IT Architect",
+                "company": "N/A"
+            }
+        ],
+        "title": "Java Developers: how to go from 5 to 9 (A journey through the best and hidden features that came over to Java in the last decade)",
+        "language": "(English)",
+        "description": "Title: Java Developers: how to go from 5 to 9 Summary: A journey through the best and hidden features that came over to Java in the last decade Java is surely not the first programming language that comes to mind when we talk about innovation and fancy new shining features, especially if you compare it to the likes of modern functional languages as Haskell, Scala, F#, or even C#. Despite this, in the last 10+ years java language designers and java libraries developers have been very busy trying to push the most relevant and most needed tools to evolve it in the right direction, while keeping intact the core ‘spirit’: that stability, quality and consistency that everyone in the IT world knows and appreciate. However, as developers in the cold real world out there, unluckily we have to deliver projects rather than play with language features. This is why, more often than not, most of these new features go severely under-utilized, sometimes even completely ignored by developers, newbies and ‘veterans’ alike. Of course, this is surely due also to that inherent lag in adopting newer version of the JVM in the enterprise that we all know about. Nevertheless if we are honest, that is not the full picture: we also have to blame ourselves, and our often static mindset to stick to what we know already and have been using in the past, rather than looking for a newer, better way to do things. I will try to motivate you to refresh your java skills, by having a short journey over the last 10 years in Java development, going through each new version of Java SE (6, 7, 8), to see some of the best and/or most hidden features that came along with each new java release. Meanwhile, we will also get a glimpse of what will come and what the the future holds for us with Java 9.",
+        "location": {
+            "room": "Room 2",
+            "seats": 250,
+            "floor": -2
+        },
+        "startTime": "16:30",
+        "endTime": "17:15"
     },
-    "startTime": "16:30",
-    "endTime": "17:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Raluca Breaur",
-        "bio": "Raluca is an Agile enthusiast with 12 years of experience in software development.",
-        "title": "Delivery Manager",
-        "company": "N/A"
-      },
-      {
-        "name": "Florin Cardasim",
-        "bio": "Florin leads the Architecture and Analysis discipline in Endava. Beyond his technical skills, Florin has gained a broad experience as a trainer for companies and speaker in community events. Florin is also co-founder of CodeCamp, one of the largest communities of software developers in Romania.",
-        "title": "Codecamper",
-        "company": "N/A"
-      }
-    ],
-    "title": "Lean - change the game",
-    "language": "Romanian",
-    "description": "We'll explore the Lean ecosystem and wonder how we can change the game",
-    "location": {
-      "room": "Room 3",
-      "seats": 100,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Bogdan Litescu",
+                "bio": "Bogdan Litescu is a software developer and business geek, balancing strategy and execution in product development for over 12 years. His skill set is at the intersection of business, customer and technical worlds. For DNN Sharp which he’s running, this translates into high tech software products that provide brilliantly simple solutions to real problems and unparalleled support. There's no surprise that the company is at the top of the DNN ecosystem. Inside the community, Bogdan is seen as the quiet guy with a vision to transform DNN into a next generation platform.",
+                "title": "Owner",
+                "company": "DNN Sharp"
+            }
+        ],
+        "title": "Developer Guide to Founding a Startup",
+        "language": "Romanian",
+        "description": "If you feel your potential as a software developer could be wasted then the right thing to do is to leave the comfort zone and start your own gig. I’ll share with you the lessons I learnt in my 10 year journey of being a developer and running a business in Romania. Learn about choosing an idea, establishing a legal entity, choosing technologies and tools, adopting the lean startup mindset, bootstrapping or attracting investments and more.",
+        "location": {
+            "room": "Room 3",
+            "seats": 100,
+            "floor": -2
+        },
+        "startTime": "16:30",
+        "endTime": "17:15"
     },
-    "startTime": "16:30",
-    "endTime": "17:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Bogdan Bujdea",
-        "bio": "I'm a Windows Platform Developer with ~4 years of experience. I worked at Thinslices as a Windows 8 Developer, and now I work at Feel IT as Windows Phone developer. Considering that Windows 10 is only one platform now, I think my correct title would be Windows Platform Developer.",
-        "title": "Windows Platform Developer",
-        "company": "N/A"
-      }
-    ],
-    "title": "Integrating Cortana in UWP apps",
-    "language": "Romanian",
-    "description": "Cortana is the voice-controlled virtual assistant launched on Windows Phone 8.1. Since its release, it has improved alot, gaining more and more features, especially when Windows 10 was launched. My goal in this presentation is to show you how easy it is to integrate Cortana in UWP apps, while also making sure that the apps run on various Windows 10 devices. Although you can write UWP apps in many languages, I will use C#/XAML in this presentation.",
-    "location": {
-      "room": "Room 4",
-      "seats": 20,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Bianca Ionel",
+                "bio": "Roxana Bianca Ionel works as IT Specialist for Expert Moldova Trading. She develops websites in Magento, Prestashop and Wordpress, and relaxes doing some design, but she's strong interest is Magento. After she took the degree in Informatica Economica, 3 years ago, she fall in love with Magento, and their relationship is more stronger every day. During her free time she likes to write on her professional blog (http://www.biancaionel.com/blog) tutorials for programmers.",
+                "title": "IT Specialist",
+                "company": "N/A"
+            }
+        ],
+        "title": "45 minutes Magento tour",
+        "language": "Romanian",
+        "description": "1. Why Magento? 2. Orange rules 3. Scary errors and quick fix 3. SEO mistakes 5. Security tips",
+        "location": {
+            "room": "Room 4",
+            "seats": 20,
+            "floor": -2
+        },
+        "startTime": "16:30",
+        "endTime": "17:15"
     },
-    "startTime": "16:30",
-    "endTime": "17:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Vasile Putină",
-        "bio": "Agile Coach. Agile transition program coordinator at Pentalog.",
-        "title": "Agile Coach & trainer. Agile transition program coordinator.",
-        "company": "N/A"
-      }
-    ],
-    "title": "The hidden impediments to agile adoption",
-    "language": "Romanian",
-    "description": "“In my case agile is not applicable\". What is really behind these words? It could be lack of knowledge, time or budget. Or there is, perhaps, a special context which needs an individual approach. I think there is something else, more interesting and deeper. Let's investigate this topic together.",
-    "location": {
-      "room": "Room 5",
-      "seats": 30,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Camelia Codarcea",
+                "bio": "Agile Consultant, Trainer and Coach",
+                "title": "Cofounder AgileHub",
+                "company": "N/A"
+            },
+            {
+                "name": "Corneliu Constantin FATULESCU",
+                "bio": "Agile coach, father, CTO of Pentalog Group, co-founder of AgileHub and manager at Pentalog Institute, Cornel FĂTULESCU is a passionate agile coach & trainer. With an incredible portfolio in IT Services and 15 years of experience, Cornel ventures Pentalog Institute in the challenging world of IT consultancy. As an agile advocate, he optimized business value delivered within various large scale organizations by implementing XP, Scrum and Kanban. “In my opinion, involvement in agile communities is like witnessing the inevitable metamorphosis of companies continuously progressing until the educational big bang occurs”. This is mainly the reason why Cornel co-created AgileHub in Brașov, probably the most dynamic Agile IT community in Romania, where he is a very important knowledge contributor.",
+                "title": "cofounder AgileHub",
+                "company": "N/A"
+            }
+        ],
+        "title": "A new perspective on agile work and what agility means",
+        "language": "Romanian",
+        "description": "What is agility? What is actually the agile manifesto? If you have seen the agile manifesto before and you think it is just a list of abstract things and phrases, then this presentation is for you. Come to our session to gain a new perspective that will certainly change the way you see work in an agile team. We'll be there! What about you? ",
+        "location": {
+            "room": "Room 5",
+            "seats": 30,
+            "floor": -2
+        },
+        "startTime": "16:30",
+        "endTime": "17:15"
     },
-    "startTime": "16:30",
-    "endTime": "17:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Radu Iscu",
-        "bio": "Radu has been a software professional for a while now. He's worked on both small and large projects, small and large companies, and in this time he's learned a lot of stuff about code. He's passionate about extreme programming, flexible design, emergent architecture and refactoring, to the point where he won't stop talking about it.",
-        "title": "Solution Architect",
-        "company": "N/A"
-      }
-    ],
-    "title": "Useful code metrics",
-    "language": "Romanian",
-    "description": "Code metrics are important. They offer us quantitative and qualitative information about our software, or so we've been told. In this presentation we'll be talking about a few useless metrics and a few more useful ones that will help us more about understanding our code, and the tools we can use to get them.",
-    "location": {
-      "room": "Room 6",
-      "seats": 20,
-      "floor": -1
+    {
+        "speakers": [
+            {
+                "name": "Horia Popa",
+                "bio": "I started my career as a C/C++ developer, worked on various projects using various technologies. Now, after having developed software for the likes of Nokia, Intel, Volkswagen and others I find myself on the management side for TiVo - a Silicon Valley based company. I am currently also a partner in a local company, iColdo.",
+                "title": "Software Development Manager",
+                "company": "N/A"
+            }
+        ],
+        "title": "A short introduction to VR",
+        "language": "(English)",
+        "description": "A short introduction to some concepts of VR and basic information on how to write a software that creates VR from individual movie clips.",
+        "location": {
+            "room": "Room 6",
+            "seats": 20,
+            "floor": -1
+        },
+        "startTime": "16:30",
+        "endTime": "17:15"
     },
-    "startTime": "16:30",
-    "endTime": "17:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Alexandru-Cristian Balmuș",
-        "bio": "Alex has been an R&D engineer for 7 years. Besides software development he also had occasional coordinating and training responsibilities. He is excited about the enterprise – open source synergy, multi-platform development technologies and, above all, he enjoys helping others to learn about these.",
-        "title": "R&D Engineer",
-        "company": "N/A"
-      }
-    ],
-    "title": "Intro to Alfresco Development",
-    "language": "Romanian",
-    "description": "Alfresco is the leading enterprise - open source content management system (a filed that’s much more interesting than it sounds :). It’s also an awesome platform for building custom ECM solutions. This presentation will introduce you to Alfresco development approaches using Java and JavaScript.",
-    "location": {
-      "room": "Room 7",
-      "seats": 20,
-      "floor": -1
+    {
+        "speakers": [
+            {
+                "name": "Dirla Vasile",
+                "bio": "Senior Java Developer with more than 10 years experience in web application development.",
+                "title": "Activiti Core Developer",
+                "company": "N/A"
+            }
+        ],
+        "title": "Activiti - The workflow engine of your application",
+        "language": "Romanian",
+        "description": "This is intended to be an introductory presentation for java developers interested in workflow execution engines. We'll start with some basic information about BPMN concepts and then we'll continue with modelling an simple process in Activiti. Later the developers will see how Activiti could be used as a workflow engine for their applications.",
+        "location": {
+            "room": "Room 7",
+            "seats": 20,
+            "floor": -1
+        },
+        "startTime": "16:30",
+        "endTime": "17:15"
     },
-    "startTime": "16:30",
-    "endTime": "17:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Mitrofan Marius",
-        "bio": "Google Apps Certified Administrator with full background knowledge of the following key technologies :",
-        "title": "Application Support Lead",
-        "company": "N/A"
-      }
-    ],
-    "title": "DevOps on Google's Compute Engine",
-    "language": "Romanian",
-    "description": "1) Google Compute Engine capabilities 2) Monitor Instances with Google Cloud Monitoring 3) Automate code deployment",
-    "location": {
-      "room": "Room 8",
-      "seats": 35,
-      "floor": 0
+    {
+        "speakers": [
+            {
+                "name": "Ciprian Redinciuc",
+                "bio": "I'm a passionate iOS developer with a taste for fine crafted mobile apps.",
+                "title": "iOS Developer",
+                "company": "N/A"
+            }
+        ],
+        "title": "Continuos Delivery for iOS Projects",
+        "language": "Romanian",
+        "description": "Learn how to connect all you deployment tools into one streamlined workflow and start saving development hours by using fastlane. Whether you are testing your latest commit, making a build for your beta testers or even delivering to the AppStore, fastlane has all the right moves for you.",
+        "location": {
+            "room": "Room 8",
+            "seats": 35,
+            "floor": 0
+        },
+        "startTime": "16:30",
+        "endTime": "17:15"
     },
-    "startTime": "16:30",
-    "endTime": "17:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Andreea Popescu",
-        "bio": "I'm a curious QA Engineer at Zitec, passionate about photography, reading, science and learning.",
-        "title": "QA Engineer",
-        "company": "N/A"
-      }
-    ],
-    "title": "Wisdom is the bug killer",
-    "language": "Romanian",
-    "description": "This presentation can be summarized in how awesome is the QA Engineer's job and in the same time, how complex it is. In this presentation you will find about a really \"human\" testing framework and the importance of multiple knowledge in daily testing.",
-    "location": {
-      "room": "Room 9",
-      "seats": 100,
-      "floor": 11
+    {
+        "speakers": [
+            {
+                "name": "Andreea Popescu",
+                "bio": "I'm a curious QA Engineer at Zitec, passionate about photography, reading, science and learning.",
+                "title": "QA Engineer",
+                "company": "N/A"
+            }
+        ],
+        "title": "Wisdom is the bug killer",
+        "language": "Romanian",
+        "description": "This presentation can be summarized in how awesome is the QA Engineer's job and in the same time, how complex it is. In this presentation you will find about a really \"human\" testing framework and the importance of multiple knowledge in daily testing.",
+        "location": {
+            "room": "Room 9",
+            "seats": 100,
+            "floor": 11
+        },
+        "startTime": "16:30",
+        "endTime": "17:15"
     },
-    "startTime": "16:30",
-    "endTime": "17:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "George Serediuc",
-        "bio": "I’m a multidisciplinary designer striving to create great experiences. My favorite things include unfiltered beer, science fiction novels, cosmology, and hiking. Currently designing positive outcomes at figshare. Follow me: @georgeserediuc",
-        "title": "Digital Designer",
-        "company": "N/A"
-      }
-    ],
-    "title": "About User Experience: How design became the new language of business",
-    "language": "Romanian",
-    "description": "As people now expect beautiful, well-designed product experiences, we are witnessing a design-driven revolution around the world. We will find out how human factors considerations are increasingly being incorporated into the product design process. I will also talk about airports in order to better emphasise the power of fierce focus on customer-centric product design. My vision is that our products and experiences should be purposeful and human-centered.",
-    "location": {
-      "room": "Room 10",
-      "seats": 50,
-      "floor": 11
+    {
+        "speakers": [
+            {
+                "name": "Nechita Radu",
+                "bio": "Radu Marian Nechita - training partner",
+                "title": "Training partner Mentor Training",
+                "company": "N/A"
+            }
+        ],
+        "title": "The coaching role on employee retention and individual performance",
+        "language": "Romanian",
+        "description": "Radu will demonstrate how to use the Coaching in seven steps method to access employee qualities and enhance them for performance. It will be not only a presentations but managers from audience will exercise practically the method and they will be able to use it next day with their employees. The manager do not have to like or dislike people, nor to change them, but to find and enhance their qualities for individual performance and as a team. You can not be a performer if your team do not perform.",
+        "location": {
+            "room": "Room 10",
+            "seats": 50,
+            "floor": 11
+        },
+        "startTime": "16:30",
+        "endTime": "17:15"
     },
-    "startTime": "16:30",
-    "endTime": "17:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Cezar Romaniuc",
-        "bio": "I’m a Software Developer with over 4 years of experience in building Java based solutions related to payment, digital media, telecommunications, energy and ERP systems.",
-        "title": "Senior Java Developer",
-        "company": "Endava"
-      }
-    ],
-    "title": "Distributed processing of large datasets",
-    "language": "Romanian",
-    "description": "This presentation will give an overview of the Big Data trends in processing large datasets using NoSQL databases and cluster computing frameworks that can run applications faster than Hadoop by keeping data in memory.",
-    "location": {
-      "room": "Room 1",
-      "seats": 100,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Alex Michel",
+                "bio": "Architect, mentor, software design and development lead in Financial Services. Design and development of real time trading products, risk management applications, online payment processing and back office tools. Full product life cycle management and support.",
+                "title": "Chief Architect",
+                "company": "N/A"
+            },
+            {
+                "name": "Silviu Eigel",
+                "bio": "Team leader for a FOREX trading platform with a focus on online payment processing.",
+                "title": "Team Leader",
+                "company": "N/A"
+            }
+        ],
+        "title": "Service Bus Integration Patterns",
+        "language": "(English)",
+        "description": "We will go through an example of leveraging MassTransit's Saga concept to create a scalable distributed online payment system.",
+        "location": {
+            "room": "Room 1",
+            "seats": 100,
+            "floor": -2
+        },
+        "startTime": "17:30",
+        "endTime": "18:15"
     },
-    "startTime": "17:30",
-    "endTime": "18:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Vlad Zelinschi (Reign)",
-        "bio": "Vlad (close friends call him Reign :D) is a Frontend Engineer with a strong passion for the latest technologies out there and an unhealthy obsession for clean and simple code. He loves to try out things as soon as they hit the market so he always keeps an eye out for the JS, CSS and HTML everchanging landscapes. He happily embraces any challenge, though he’ll prefer the ones related to Angular, React, FRP, Node, MongoDB and frontend performance. He is currently employed at Appsbroker where he leads the frontend team and drives innovation forward.",
-        "title": "UI Tech Lead",
-        "company": "N/A"
-      }
-    ],
-    "title": "Client-side reactive programming with RxJS",
-    "language": "Romanian",
-    "description": "Imperative programming. We're all used to that. Probably doing it since...forever. But it's not the only way we can reason about our applications. In this presentation we will embark on a journey through the land of reactive programming. What it is and why is it useful. What are the advantages as well as the perks of using it, and when should we consider taking this approach. All this while live coding a GitHub suggestion box using RxJS (probably the most well-known client-side JS reactive programming framework). Hope to see you there!",
-    "location": {
-      "room": "Room 2",
-      "seats": 250,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Jozua Velle",
+                "bio": "Jozua Velle",
+                "title": "Unit Manager Storeworld",
+                "company": "N/A"
+            },
+            {
+                "name": "Dan Vulpe",
+                "bio": "Proud father of two and passionate software engineer with a strong focus on code quality and low technical debt.",
+                "title": "Software Engineer",
+                "company": "N/A"
+            }
+        ],
+        "title": "How we did it! 100+ continuous deployments per day… while having a coffee",
+        "language": "(English)",
+        "description": "Getting frequent releases into production is not straight forward. Changing a complex software suite release frequency from 1-2 major releases per year to 8-10 releases per year is more complex. Add multiple customers on different versions and configurations to this puzzle and things turn to be really complex. Join this talk and get to know the challenges for Continuous Delivery and our approach for solving this puzzle. ",
+        "location": {
+            "room": "Room 2",
+            "seats": 250,
+            "floor": -2
+        },
+        "startTime": "17:30",
+        "endTime": "18:15"
     },
-    "startTime": "17:30",
-    "endTime": "18:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Remus Langu",
-        "bio": "Remus is a software engineer with a high interest in Agile practices (XP, BDD/TDD, Emergent Design,…) and Software Craftsmanship.",
-        "title": "Design Lead",
-        "company": "Endava"
-      }
-    ],
-    "title": "Handling Variations in Emerging Designs",
-    "language": "Romanian",
-    "description": "One thing that Agile Software Development manifesto promises and values more is 'Responding to change over following a plan'. Achieving this value by properly handling variations within the problem domain is one of the biggest challenges. In this talk I will share some techniques from Emergent Design that I use when dealing with changes.",
-    "location": {
-      "room": "Room 3",
-      "seats": 100,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Sorin Peste",
+                "bio": "Sorin has been a part of the Enterprise Services unit within Microsoft Romania since 2011, and has been busy developing software on the Microsoft technology stack since 2001. Recently he has taken on the Technical Evangelist role and will engage more actively with developers and IT Professionals, showcasing the newest Microsoft solutions and technology.",
+                "title": "Technical Evangelist, Microsoft Romania",
+                "company": "Microsoft"
+            }
+        ],
+        "title": "Building an IoT Solution Using Azure IoT Hub, Stream Analytics, Machine Learning, and PowerBI",
+        "language": "(English)",
+        "description": "Your cloud-based Internet of Things is here! Come see a demo of a real time analysis of device telemetry at motion, using a host of Microsoft Azure-based technologies. Find out how you can easily build a pipeline to ingest, transform, predict and present data and trends, using stuff that’s already in Azure today. Learn how you can get from idea to working prototype in a very short time.",
+        "location": {
+            "room": "Room 3",
+            "seats": 100,
+            "floor": -2
+        },
+        "startTime": "17:30",
+        "endTime": "18:15"
     },
-    "startTime": "17:30",
-    "endTime": "18:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Bianca Ionel",
-        "bio": "Roxana Bianca Ionel works as IT Specialist for Expert Moldova Trading. She develops websites in Magento, Prestashop and Wordpress, and relaxes doing some design, but she's strong interest is Magento. After she took the degree in Informatica Economica, 3 years ago, she fall in love with Magento, and their relationship is more stronger every day. During her free time she likes to write on her professional blog (http://www.biancaionel.com/blog) tutorials for programmers.",
-        "title": "IT Specialist",
-        "company": "N/A"
-      }
-    ],
-    "title": "45 minutes Magento tour",
-    "language": "Romanian",
-    "description": "1. Why Magento? 2. Orange rules 3. Scary errors and quick fix 3. SEO mistakes 5. Security tips",
-    "location": {
-      "room": "Room 4",
-      "seats": 20,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Doina Movila",
+                "bio": "https://ro.linkedin.com/pub/doina-movila/a0/474/86a",
+                "title": "Social Media Analyst",
+                "company": "N/A"
+            }
+        ],
+        "title": "Blue Chip Companies and their Social Media Tactics in Sales",
+        "language": "(English)",
+        "description": "It's no secret that the sales world has changed and Social Media is the name of the new 'Sales Game'. Although it can still be a mystery for regular Jane's and Joe's, Blue Chip Companies already rely on social media tactics on how to maintain or gain more in Sales.",
+        "location": {
+            "room": "Room 4",
+            "seats": 20,
+            "floor": -2
+        },
+        "startTime": "17:30",
+        "endTime": "18:15"
     },
-    "startTime": "17:30",
-    "endTime": "18:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Camelia Codarcea",
-        "bio": "Agile Consultant, Trainer and Coach",
-        "title": "Cofounder AgileHub",
-        "company": "N/A"
-      },
-      {
-        "name": "Corneliu Constantin FATULESCU",
-        "bio": "Agile coach, father, CTO of Pentalog Group, co-founder of AgileHub and manager at Pentalog Institute, Cornel FĂTULESCU is a passionate agile coach & trainer. With an incredible portfolio in IT Services and 15 years of experience, Cornel ventures Pentalog Institute in the challenging world of IT consultancy. As an agile advocate, he optimized business value delivered within various large scale organizations by implementing XP, Scrum and Kanban. “In my opinion, involvement in agile communities is like witnessing the inevitable metamorphosis of companies continuously progressing until the educational big bang occurs”. This is mainly the reason why Cornel co-created AgileHub in Brașov, probably the most dynamic Agile IT community in Romania, where he is a very important knowledge contributor.",
-        "title": "cofounder AgileHub",
-        "company": "N/A"
-      }
-    ],
-    "title": "How to improve individual performance",
-    "language": "Romanian",
-    "description": "I've made various presentations about boosting the skills of a manager, of a Scrum Master or a developer. During this presentation I'll speak about the common framework and the required mind-set that stands behind individual improvement",
-    "location": {
-      "room": "Room 5",
-      "seats": 30,
-      "floor": -2
+    {
+        "speakers": [
+            {
+                "name": "Vasile Putină",
+                "bio": "Agile Coach. Agile transition program coordinator at Pentalog.",
+                "title": "Agile Coach & trainer. Agile transition program coordinator.",
+                "company": "N/A"
+            }
+        ],
+        "title": "The hidden impediments to agile adoption",
+        "language": "Romanian",
+        "description": "“In my case agile is not applicable\". What is really behind these words? It could be lack of knowledge, time or budget. Or there is, perhaps, a special context which needs an individual approach. I think there is something else, more interesting and deeper. Let's investigate this topic together.",
+        "location": {
+            "room": "Room 5",
+            "seats": 30,
+            "floor": -2
+        },
+        "startTime": "17:30",
+        "endTime": "18:15"
     },
-    "startTime": "17:30",
-    "endTime": "18:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Horia Popa",
-        "bio": "I started my career as a C/C++ developer, worked on various projects using various technologies. Now, after having developed software for the likes of Nokia, Intel, Volkswagen and others I find myself on the management side for TiVo - a Silicon Valley based company. I am currently also a partner in a local company, iColdo.",
-        "title": "Software Development Manager",
-        "company": "N/A"
-      }
-    ],
-    "title": "A short introduction to VR",
-    "language": "Romanian",
-    "description": "A short introduction to some concepts of VR and basic information on how to write a software that creates VR from individual movie clips.",
-    "location": {
-      "room": "Room 6",
-      "seats": 20,
-      "floor": -1
+    {
+        "speakers": [
+            {
+                "name": "George Raut",
+                "bio": "https://ro.linkedin.com/in/georgeraut",
+                "title": "Analytics Specialists Leader",
+                "company": "N/A"
+            },
+            {
+                "name": "Bogdan Suchar",
+                "bio": "https://ro.linkedin.com/in/georgeraut",
+                "title": "Account Manager",
+                "company": "N/A"
+            },
+            {
+                "name": "Oana Scutarasu",
+                "bio": "https://ro.linkedin.com/in/georgeraut",
+                "title": "Marketing Automation Team Leader",
+                "company": "N/A"
+            }
+        ],
+        "title": "Marketing Automation Distillery",
+        "language": "Romanian",
+        "description": "As a fine distillery transforms raw fruits into a premium blend, this is how Marketing Automation converts simple web visitors into loyal customers. Our analogy should make it easier to understand the journey through the backstage of the automated and entertaining part of Marketing. You will witness the behavior of a potential customer as he becomes a business opportunity.",
+        "location": {
+            "room": "Room 6",
+            "seats": 20,
+            "floor": -1
+        },
+        "startTime": "17:30",
+        "endTime": "18:15"
     },
-    "startTime": "17:30",
-    "endTime": "18:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Adrian-Tudor Panescu",
-        "bio": "Computer Science graduate and Web enthusiast. From small Berlin startups to large institutions like CERN, I've always pushed my limits in order to deliver innovative Web products.",
-        "title": "Web Enthusiast",
-        "company": "N/A"
-      }
-    ],
-    "title": "ECMAScript 6 Tips & Traps",
-    "language": "Romanian",
-    "description": "JavaScript has always been a language with quite a few dark corners and gotchas, which, if ignored, could lead to unexpected behaviours and bugs. While the new ECMAScript standard has helped clear some of these issues, it has also brought up some new ones like the Temporal Dead Zone, handling exceptions in Promises, or the behaviour of constants. This interactive presentation will go through a number of ECMAScript 6 quirks, in an attempt to clear them up.",
-    "location": {
-      "room": "Room 7",
-      "seats": 20,
-      "floor": -1
+    {
+        "speakers": [
+            {
+                "name": "Alexandru-Cristian Balmuș",
+                "bio": "Alex has been an R&D engineer for 7 years. Besides software development he also had occasional coordinating and training responsibilities. He is excited about the enterprise – open source synergy, multi-platform development technologies and, above all, he enjoys helping others to learn about these.",
+                "title": "R&D Engineer",
+                "company": "N/A"
+            }
+        ],
+        "title": "Intro to Alfresco Development",
+        "language": "(English)",
+        "description": "Alfresco is the leading enterprise - open source content management system (a filed that’s much more interesting than it sounds :). It’s also an awesome platform for building custom ECM solutions. This presentation will introduce you to Alfresco development approaches using Java and JavaScript.",
+        "location": {
+            "room": "Room 7",
+            "seats": 20,
+            "floor": -1
+        },
+        "startTime": "17:30",
+        "endTime": "18:15"
     },
-    "startTime": "17:30",
-    "endTime": "18:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Luigi Lauro",
-        "bio": "Enterprise Architect and Senior Software Analyst and Developer with wide experiences in services, application and web development (Java, Scala, .NET, C/C++, most scripting languages), databases, networks, operating systems (FreeBSD, Mac OS X, Linux, Windows), hardware and software security (parallel computing and cryptology are some of his main interests).",
-        "title": "IT Architect",
-        "company": "N/A"
-      }
-    ],
-    "title": "Java Developers: how to go from 5 to 9 (A journey through the best and hidden features that came over to Java in the last decade)",
-    "language": "Romanian",
-    "description": "Title: Java Developers: how to go from 5 to 9 Summary: A journey through the best and hidden features that came over to Java in the last decade Java is surely not the first programming language that comes to mind when we talk about innovation and fancy new shining features, especially if you compare it to the likes of modern functional languages as Haskell, Scala, F#, or even C#. Despite this, in the last 10+ years java language designers and java libraries developers have been very busy trying to push the most relevant and most needed tools to evolve it in the right direction, while keeping intact the core ‘spirit’: that stability, quality and consistency that everyone in the IT world knows and appreciate. However, as developers in the cold real world out there, unluckily we have to deliver projects rather than play with language features. This is why, more often than not, most of these new features go severely under-utilized, sometimes even completely ignored by developers, newbies and ‘veterans’ alike. Of course, this is surely due also to that inherent lag in adopting newer version of the JVM in the enterprise that we all know about. Nevertheless if we are honest, that is not the full picture: we also have to blame ourselves, and our often static mindset to stick to what we know already and have been using in the past, rather than looking for a newer, better way to do things. I will try to motivate you to refresh your java skills, by having a short journey over the last 10 years in Java development, going through each new version of Java SE (6, 7, 8), to see some of the best and/or most hidden features that came along with each new java release. Meanwhile, we will also get a glimpse of what will come and what the the future holds for us with Java 9.",
-    "location": {
-      "room": "Room 8",
-      "seats": 35,
-      "floor": 0
+    {
+        "speakers": [
+            {
+                "name": "Mitrofan Marius",
+                "bio": "Google Apps Certified Administrator with full background knowledge of the following key technologies :",
+                "title": "Application Support Lead",
+                "company": "N/A"
+            }
+        ],
+        "title": "DevOps on Google's Compute Engine",
+        "language": "(English)",
+        "description": "1) Google Compute Engine capabilities 2) Monitor Instances with Google Cloud Monitoring 3) Automate code deployment ",
+        "location": {
+            "room": "Room 8",
+            "seats": 35,
+            "floor": 0
+        },
+        "startTime": "17:30",
+        "endTime": "18:15"
     },
-    "startTime": "17:30",
-    "endTime": "18:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Alex Michel",
-        "bio": "Architect, mentor, software design and development lead in Financial Services. Design and development of real time trading products, risk management applications, online payment processing and back office tools. Full product life cycle management and support.",
-        "title": "Chief Architect",
-        "company": "N/A"
-      },
-      {
-        "name": "Silviu Eigel",
-        "bio": "Team leader for a FOREX trading platform with a focus on online payment processing.",
-        "title": "Team Leader",
-        "company": "N/A"
-      }
-    ],
-    "title": "Service Bus Integration Patterns",
-    "language": "Romanian",
-    "description": "We will go through an example of leveraging MassTransit's Saga concept to create a scalable distributed online payment system.",
-    "location": {
-      "room": "Room 9",
-      "seats": 100,
-      "floor": 11
+    {
+        "speakers": [
+            {
+                "name": "Alexandru Pascariu",
+                "bio": "- software developer - Centric IT Solutions",
+                "title": "Automation QA",
+                "company": "N/A"
+            },
+            {
+                "name": "Bogdan Florea",
+                "bio": "- Java developer -The Red Point, Pentalog and Yonder",
+                "title": "Senior Java Developer",
+                "company": "N/A"
+            }
+        ],
+        "title": "How to write “Software that matters” using BDD concepts on Java platform",
+        "language": "Romanian",
+        "description": "General presentation on BDD (Behaviour-Driven Development) concepts from the perspective of an Automation QA and a Java developer. BDD tools: Cucumber and JBehave.",
+        "location": {
+            "room": "Room 9",
+            "seats": 100,
+            "floor": 11
+        },
+        "startTime": "17:30",
+        "endTime": "18:15"
     },
-    "startTime": "17:30",
-    "endTime": "18:15"
-  },
-  {
-    "speakers": [
-      {
-        "name": "Codecamper",
-        "bio": "",
-        "title": "",
-        "company": "N/A"
-      }
-    ],
-    "title": "Session 8-6",
-    "language": "Romanian",
-    "description": "",
-    "location": {
-      "room": "Room 10",
-      "seats": 50,
-      "floor": 11
-    },
-    "startTime": "17:30",
-    "endTime": "18:15"
-  }
+    {
+        "speakers": [
+            {
+                "name": "Andrei Postolache",
+                "bio": "I’m a co-founder and trainer at Introspecials with a focus on modern organizations, leadership, agility, lean, learning, culture and communication.",
+                "title": "Trainer",
+                "company": "N/A"
+            }
+        ],
+        "title": "Lucruri de care mi-e frică, și cele de care nu",
+        "language": "Romanian",
+        "description": "Dăm la o parte “cultura organizațională”, “motivarea”, “engagement-ul”, “spiritul de echipă”, “leadership-ul” și altele ca ele, și ne uităm direct în ochii monstrului: ce vedem? O discuție despre părțile dureroase ale învățării, despre ceea ce ne schimbă cu adevărat, și despre cum trecem prin transformările care contează. Când învățarea încetează să mai fie jucărie și devine identitate. Când intrăm în acel joc în care avem multe de pierdut. Cum o facem? De ce lucruri are rost să ne temem, și de care nu?",
+        "location": {
+            "room": "Room 10",
+            "seats": 50,
+            "floor": 11
+        },
+        "startTime": "17:30",
+        "endTime": "18:15"
+    }
 ]

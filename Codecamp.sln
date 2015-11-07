@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24627.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codecamp.UWP", "Codecamp.UWP\Codecamp.UWP.csproj", "{46E77B05-43AD-4189-BE2E-6A123D014AB8}"
 EndProject
@@ -22,6 +22,8 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{46E77B05-43AD-4189-BE2E-6A123D014AB8}.Debug|Any CPU.ActiveCfg = Debug|ARM
+		{46E77B05-43AD-4189-BE2E-6A123D014AB8}.Debug|Any CPU.Build.0 = Debug|ARM
+		{46E77B05-43AD-4189-BE2E-6A123D014AB8}.Debug|Any CPU.Deploy.0 = Debug|ARM
 		{46E77B05-43AD-4189-BE2E-6A123D014AB8}.Debug|ARM.ActiveCfg = Debug|ARM
 		{46E77B05-43AD-4189-BE2E-6A123D014AB8}.Debug|ARM.Build.0 = Debug|ARM
 		{46E77B05-43AD-4189-BE2E-6A123D014AB8}.Debug|ARM.Deploy.0 = Debug|ARM

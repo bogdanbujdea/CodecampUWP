@@ -4,19 +4,26 @@
 
   <CommandSet xml:lang="en-us" Name="CodecampCommandSet">
     <CommandPrefix>Codecamp</CommandPrefix>
-    <Example>Ask Codecamp</Example>
+    <Example>what is my Codecamp presentation about</Example>
 
-    <Command Name="showSessions">
-      <Example>show</Example>
-      <ListenFor RequireAppName="ExplicitlySpecified">show me the {builtin:AppName} agenda</ListenFor>
-      <Feedback>Showing sessions...</Feedback>
-      <Navigate/>
+    <Command Name="sayPresentationDescription">
+      <Example> what is my Codecamp presentation about </Example>
+      <ListenFor RequireAppName="ExplicitlySpecified"> what is my {builtin:AppName} presentation about</ListenFor>
+      <Feedback>You have such a short term memory</Feedback>
+      <VoiceCommandService Target="CodecampSessionsVoiceCommandService"/>
     </Command>
 
-    <Command Name="findSessionsByKeyword">
-      <Example>show</Example>
-      <ListenFor RequireAppName="ExplicitlySpecified">find the {builtin:AppName} sessions related to {keyword}</ListenFor>
-      <Feedback>Finding sessions related to {keyword}</Feedback>
+    <Command Name="showSessionsByRoom">
+      <Example> Show me the Codecamp sessions from room 1</Example>
+      <ListenFor RequireAppName="ExplicitlySpecified"> show [me] [the] {builtin:AppName} sessions from room {room}</ListenFor>
+      <Feedback> Finding sessions from room {room}</Feedback>
+      <Navigate />
+    </Command>
+    
+    <Command Name="showSessions">
+      <Example>show me the CodeCamp agenda</Example>
+      <ListenFor RequireAppName="ExplicitlySpecified">show me the {builtin:AppName} agenda</ListenFor>
+      <Feedback>Showing sessions...</Feedback>
       <Navigate/>
     </Command>
 
@@ -27,13 +34,6 @@
       <VoiceCommandService Target="CodecampSessionsVoiceCommandService"/>
     </Command>
 
-    <Command Name="findSessionsByRoom">
-      <Example> Show me the Codecamp sessions from room 1</Example>
-      <ListenFor RequireAppName="ExplicitlySpecified"> show [me] [the] {builtin:AppName} sessions from room {room}</ListenFor>
-      <Feedback> Finding sessions from room {room}</Feedback>
-      <VoiceCommandService Target="CodecampSessionsVoiceCommandService"/>
-    </Command>
-    
     <PhraseList Label="room">
       <Item>1</Item>
       <Item>2</Item>
@@ -46,19 +46,9 @@
       <Item>9</Item>
       <Item>10</Item>
     </PhraseList>
-    
-    <PhraseList Label="keyword">
-      
-    </PhraseList>
-    
+
     <PhraseTopic Label="search" Scenario="Search">
-      <Subject> Codecamp </Subject>
-      <Subject> programming </Subject>
-      <Subject> IT </Subject>
-      <Subject> conference </Subject>
-      <Subject> presentation </Subject>
-      <Subject> windows </Subject>
-      <Subject> microsoft </Subject>
+
     </PhraseTopic>
 
   </CommandSet>

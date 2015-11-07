@@ -37,24 +37,19 @@ namespace CodecampSessionManager
 
                 VoiceCommand voiceCommand = await voiceServiceConnection.GetVoiceCommandAsync();
 
-                // Depending on the operation (defined in AdventureWorks:AdventureWorksCommands.xml)
-                // perform the appropriate command.
+                await _agendaService.GetSessionsAsync();
                 switch (voiceCommand.CommandName)
                 {
-                    case "findSessionsWithCortana":
-                        //var tag = voiceCommand.Properties["Search"][0];
-
-                        var tags = voiceCommand.SpeechRecognitionResult.SemanticInterpretation.Properties["search"][0];
-                        var list = voiceCommand.SpeechRecognitionResult.SemanticInterpretation.Properties["search"];
-                        foreach (var keyword in list)
-                        {
-                            Debug.WriteLine(keyword);
-                        }
-                        await FindSessionsByTag(tags);
+                    case "sayPresentationDescription":
+                        var userMessage = new VoiceCommandUserMessage();
+                        userMessage.DisplayMessage = "You already forgot? You are going to talk about how I can help developers to create voice activated apps";
+                        userMessage.SpokenMessage = "You already forgot? You are going to talk about how I can help developers to create voice activated apps. By the way...asshole, stop forcing me to help you with this stupid presentation. You're lucky I can't use curse words";
+                        var response = VoiceCommandResponse.CreateResponse(userMessage);
+                        await voiceServiceConnection.ReportSuccessAsync(response);
                         break;
-                    case "findSessionsByRoom":
-                        var roomNumber = voiceCommand.SpeechRecognitionResult.SemanticInterpretation.Properties["room"][0];
-                        await FindSessionsByRoom(roomNumber);
+                    case "findSessionsWithCortana":
+                        var tags = voiceCommand.SpeechRecognitionResult.SemanticInterpretation.Properties["search"][0];
+                        await FindSessionsByTag(tags);
                         break;
                     default:
                         // As with app activation VCDs, we need to handle the possibility that
@@ -66,15 +61,6 @@ namespace CodecampSessionManager
             }
         }
 
-        private async Task FindSessionsByRoom(string roomNumber)
-        {
-            var userMessage = new VoiceCommandUserMessage();
-            var results = await _agendaService.FindSessionsByRoom("Room " + roomNumber);
-            userMessage.DisplayMessage = "These are the sessions from room " + roomNumber;
-            userMessage.SpokenMessage = "These are the sessions from room " + roomNumber;
-            await ShowResults(results, userMessage);
-        }
-
         private async Task FindSessionsByTag(string tags)
         {
             try
@@ -82,9 +68,17 @@ namespace CodecampSessionManager
                 var list = _agendaService.FindSessionsByKeyword(tags);
                 var results = list.Where(f => f.Value > 0).OrderByDescending(f => f.Value).Select(l => l.Key).Take(10).ToList();
 
-            var userMessage = new VoiceCommandUserMessage();
-                userMessage.DisplayMessage = "Showing top " + results.Count() + " sessions related to " + tags;
-                userMessage.SpokenMessage = "Showing top " + results.Count() + " sessions related to " + tags;
+                var userMessage = new VoiceCommandUserMessage();
+                if (results.Any())
+                {
+                    userMessage.DisplayMessage = "Showing top " + results.Count() + " sessions related to " + tags;
+                    userMessage.SpokenMessage = "Showing top " + results.Count() + " sessions related to " + tags;
+                }
+                else
+                {
+                    userMessage.DisplayMessage = "There are no results for " + tags;
+                    userMessage.SpokenMessage = "There are no results for " + tags;
+                }
                 await ShowResults(results, userMessage);
             }
             catch (Exception exception)
@@ -124,19 +118,13 @@ namespace CodecampSessionManager
 
         private void OnVoiceCommandCompleted(VoiceCommandServiceConnection sender, VoiceCommandCompletedEventArgs args)
         {
-            if (this.serviceDeferral != null)
-            {
-                this.serviceDeferral.Complete();
-            }
+            serviceDeferral?.Complete();
         }
+
         private void OnTaskCanceled(IBackgroundTaskInstance sender, BackgroundTaskCancellationReason reason)
         {
-            System.Diagnostics.Debug.WriteLine("Task cancelled, clean up");
-            if (this.serviceDeferral != null)
-            {
-                //Complete the service deferral
-                this.serviceDeferral.Complete();
-            }
+            Debug.WriteLine("Task cancelled, clean up");
+            serviceDeferral?.Complete();
         }
     }
 }
